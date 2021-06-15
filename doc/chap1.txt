@@ -33,6 +33,8 @@
   
   [30X    [33X[0;6Ycreate_func_morphism[133X
   
+  [30X    [33X[0;6Ycreate_func_morphism_or_fail[133X
+  
   [30X    [33X[0;6Ycreate_func_list[133X
   
   [30X    [33X[0;6Ycreate_func_object_or_fail[133X
@@ -40,8 +42,6 @@
   [30X    [33X[0;6Ycreate_func_other_object[133X
   
   [30X    [33X[0;6Ycreate_func_other_morphism[133X
-  
-  [30X    [33X[0;6Ycreate_func_universal_morphism[133X
   
   
   [1X1.2 [33X[0;0YOperations[133X[101X
