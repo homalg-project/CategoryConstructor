@@ -24,8 +24,6 @@
   [2XPreInverse[102X, for IsCapCategoryMorphism 2.6-2 
       for IsCapCategoryObject, IsCapCategoryObject 2.1-1 
   [2XSumOfImagesOfAllMorphisms[102X, for IsCapCategoryObject, IsCapCategoryObject 2.4-5 
-  [2XUnderlyingCell[102X, for IsInt 1.2-2 
-      for IsList 1.2-1 
   
   
   -------------------------------------------------------
