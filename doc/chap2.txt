@@ -160,7 +160,17 @@
   \mathtt{BasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory}(arg2,
   arg3)[123X.[133X
   
-  [1X2.5-3 AddEmbeddingOfSumOfImagesOfAllMorphisms[101X
+  [1X2.5-3 AddBiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XAddBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XBiasedRelativeWeakFiberProduct[110X.   [23XF:   (   arg2,   arg3,   arg4   )  \mapsto
+  \mathtt{BiasedRelativeWeakFiberProduct}(arg2, arg3, arg4)[123X.[133X
+  
+  [1X2.5-4 AddEmbeddingOfSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddEmbeddingOfSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -170,7 +180,7 @@
   [10XEmbeddingOfSumOfImagesOfAllMorphisms[110X.     [23XF:    (    a,    b    )    \mapsto
   \mathtt{EmbeddingOfSumOfImagesOfAllMorphisms}(a, b)[123X.[133X
   
-  [1X2.5-4 AddIsWeakInitial[101X
+  [1X2.5-5 AddIsWeakInitial[101X
   
   [33X[1;0Y[29X[2XAddIsWeakInitial[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -179,7 +189,7 @@
   given function [23XF[123X to the category for the basic operation [10XIsWeakInitial[110X. [23XF: (
   arg2 ) \mapsto \mathtt{IsWeakInitial}(arg2)[123X.[133X
   
-  [1X2.5-5 AddIsWeakTerminal[101X
+  [1X2.5-6 AddIsWeakTerminal[101X
   
   [33X[1;0Y[29X[2XAddIsWeakTerminal[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -188,7 +198,7 @@
   given  function [23XF[123X to the category for the basic operation [10XIsWeakTerminal[110X. [23XF:
   ( arg2 ) \mapsto \mathtt{IsWeakTerminal}(arg2)[123X.[133X
   
-  [1X2.5-6 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
+  [1X2.5-7 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XAddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -200,7 +210,7 @@
   \mathtt{MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory}(arg2,
   arg3)[123X.[133X
   
-  [1X2.5-7 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
+  [1X2.5-8 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XAddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -212,7 +222,7 @@
   \mathtt{MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory}(arg2, arg3,
   arg4)[123X.[133X
   
-  [1X2.5-8 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
+  [1X2.5-9 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddMorphismOntoSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -222,7 +232,7 @@
   [10XMorphismOntoSumOfImagesOfAllMorphisms[110X.    [23XF:    (    a,    b    )    \mapsto
   \mathtt{MorphismOntoSumOfImagesOfAllMorphisms}(a, b)[123X.[133X
   
-  [1X2.5-9 AddPostInverse[101X
+  [1X2.5-10 AddPostInverse[101X
   
   [33X[1;0Y[29X[2XAddPostInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -231,7 +241,7 @@
   given  function  [23XF[123X to the category for the basic operation [10XPostInverse[110X. [23XF: (
   alpha ) \mapsto \mathtt{PostInverse}(alpha)[123X.[133X
   
-  [1X2.5-10 AddPreInverse[101X
+  [1X2.5-11 AddPreInverse[101X
   
   [33X[1;0Y[29X[2XAddPreInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -240,7 +250,38 @@
   given  function  [23XF[123X  to the category for the basic operation [10XPreInverse[110X. [23XF: (
   alpha ) \mapsto \mathtt{PreInverse}(alpha)[123X.[133X
   
-  [1X2.5-11 AddSumOfImagesOfAllMorphisms[101X
+  [1X2.5-12 AddProjectionOfBiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XProjectionOfBiasedRelativeWeakFiberProduct[110X.   [23XF:   (   a,  b,  c  )  \mapsto
+  \mathtt{ProjectionOfBiasedRelativeWeakFiberProduct}(a, b, c)[123X.[133X
+  
+  [1X2.5-13 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[110X.
+  [23XF:         (         a,        b,        c,        P        )        \mapsto
+  \mathtt{ProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
+  b, c, P)[123X.[133X
+  
+  [1X2.5-14 AddRelativeLift[101X
+  
+  [33X[1;0Y[29X[2XAddRelativeLift[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given  function [23XF[123X to the category for the basic operation [10XRelativeLift[110X. [23XF: (
+  beta, alpha, nu ) \mapsto \mathtt{RelativeLift}(beta, alpha, nu)[123X.[133X
+  
+  [1X2.5-15 AddSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -249,4 +290,116 @@
   given    function    [23XF[123X   to   the   category   for   the   basic   operation
   [10XSumOfImagesOfAllMorphisms[110X.     [23XF:     (     arg2,     arg3     )     \mapsto
   \mathtt{SumOfImagesOfAllMorphisms}(arg2, arg3)[123X.[133X
+  
+  [1X2.5-16 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XUniversalMorphismIntoBiasedRelativeWeakFiberProduct[110X.  [23XF:  (  a,  b,  c,  t )
+  \mapsto  \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProduct}(a,  b,
+  c, t)[123X.[133X
+  
+  [1X2.5-17 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[110X.
+  [23XF:       (       a,       b,       c,       t,       P       )       \mapsto
+  \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
+  b, c, t, P)[123X.[133X
+  
+  
+  [1X2.6 [33X[0;0YRelativeLift/RelativeColift[133X[101X
+  
+  [1X2.6-1 RelativeLift[101X
+  
+  [33X[1;0Y[29X[2XRelativeLift[102X( [3Xbeta[103X, [3Xalpha[103X, [3Xnu[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(b,a) + \{ \mathtt{fail} \}[123X[133X
+  
+  [33X[0;0YThe   arguments  are  two  morphisms  [23X\beta:  b  \rightarrow  c[123X,  [23X\alpha:  a
+  \rightarrow  c[123X,  and  [23X\nu:  d  \rightarrow c[123X . The output is a relative lift
+  [23X\beta  / \alpha: b \rightarrow a[123X of [23X\beta[123X along [23X\alpha[123X modulo [23X\nu[123X. if such a
+  relative  lift exists or [23X\mathtt{fail}[123X if it doesn't. Recall that a relative
+  lift  [23X\beta  / \alpha: b \rightarrow a[123X of [23X\beta[123X along [23X\alpha[123X modulo [23X\nu[123X is a
+  morphism  such  that  [23X\alpha  \circ (\beta / \alpha) \sim_{b,c} \beta + \chi
+  \nu[123X, for some morphism [23X\chi: b \rightarrow d[123X.[133X
+  
+  
+  [1X2.7 [33X[0;0YBiased relative weak fiber product[133X[101X
+  
+  [33X[0;0YFor  a  given  pair  of  morphisms  [23X(\alpha: A \rightarrow B, \beta \colon C
+  \rightarrow  B)[123X,  a  biased  relative  weak fiber product of [23X(\alpha, \beta)[123X
+  consists of three parts:[133X
+  
+  [30X    [33X[0;6Yan object [23XP[123X,[133X
+  
+  [30X    [33X[0;6Ya  morphism  [23X\pi:  P  \rightarrow  A[123X such that there exists a morphism
+        [23X\delta: P \rightarrow C[123X such that [23X\beta \circ \delta \sim_{P,B} \alpha
+        \circ \pi[123X,[133X
+  
+  [30X    [33X[0;6Ya  dependent  function  [23Xu[123X  mapping  each  [23X\tau: T \rightarrow A[123X, which
+        admits  a  morphism  [23X\mu  \colon  T \rightarrow C[123X with [23X\beta \circ \mu
+        \sim_{T,B}  \alpha  \circ  \tau[123X, to a morphism [23Xu(\tau):T \rightarrow P[123X
+        such that [23X\pi \circ u(\tau) \sim_{T,A} \tau[123X.[133X
+  
+  [33X[0;0YThe  triple  [23X( P, \pi, u )[123X is called a [13Xbiased relative weak fiber product[113X of
+  [23X(\alpha,\beta)[123X.   We   denote   the   object   [23XP[123X   of   such   a  triple  by
+  [23X\mathrm{BiasedRelativeWeakFiberProduct}(\alpha,\beta)[123X.   We   say  that  the
+  morphism [23Xu(\tau)[123X is induced by the [13Xuniversal property of the biased relative
+  weak fiber product[113X.[133X
+  
+  [1X2.7-1 BiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XBiasedRelativeWeakFiberProduct[102X( [3Xalpha[103X, [3Xbeta[103X, [3Xsigma[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Yan object[133X
+  
+  [33X[0;0YThe   arguments  are  two  morphisms  [23X\alpha:  A  \rightarrow  B[123X,  [23X\beta:  C
+  \rightarrow  B[123X.  The  output  is the biased relative weak fiber product [23XP[123X of
+  [23X\alpha[123X and [23X\beta[123X.[133X
+  
+  [1X2.7-2 ProjectionOfBiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XProjectionOfBiasedRelativeWeakFiberProduct[102X( [3Xalpha[103X, [3Xbeta[103X, [3Xsigma[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( P, A )[123X[133X
+  
+  [33X[0;0YThe  arguments  are  three  morphisms  [23X\alpha:  A  \rightarrow  B[123X,  [23X\beta: C
+  \rightarrow  B[123X,  [23X\sigma:  D \rightarrow A[123X. The output is the biased relative
+  weak fiber product projection [23X\pi: P \rightarrow A[123X.[133X
+  
+  [1X2.7-3 ProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3Xalpha[103X, [3Xbeta[103X, [3Xsigma[103X, [3XP[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( P, A )[123X[133X
+  
+  [33X[0;0YThe   arguments  are  two  morphisms  [23X\alpha:  A  \rightarrow  B[123X,  [23X\beta:  C
+  \rightarrow   B[123X,   [23X\sigma:   D   \rightarrow   A[123X,   and   an   object   [23XP  =
+  \mathrm{BiasedRelativeWeakFiberProduct}(  \alpha, \beta )[123X. The output is the
+  biased relative weak fiber product projection [23X\pi: P \rightarrow A[123X.[133X
+  
+  [1X2.7-4 UniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X( [3Xalpha[103X, [3Xbeta[103X, [3Xsigma[103X, [3Xtau[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( T, P )[123X[133X
+  
+  [33X[0;0YThe  arguments  are  three  morphisms  [23X\alpha:  A  \rightarrow  B[123X,  [23X\beta: C
+  \rightarrow B[123X, [23X\sigma: D \rightarrow A[123X, [23X\tau: T \rightarrow A[123X. The output is
+  the  morphism  [23Xu(  \tau  )[123X  induced  by the universal property of the biased
+  relative weak fiber product [23XP[123X of [23X\alpha[123X and [23X\beta[123X.[133X
+  
+  [1X2.7-5 UniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  
+  [33X[1;0Y[29X[2XUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3Xalpha[103X, [3Xbeta[103X, [3Xsigma[103X, [3Xtau[103X, [3XP[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( T, P )[123X[133X
+  
+  [33X[0;0YThe  arguments  are  three  morphisms  [23X\alpha:  A  \rightarrow  B[123X,  [23X\beta: C
+  \rightarrow    B[123X,    [23X\tau:   T   \rightarrow   A[123X   and   an   object   [23XP   =
+  \mathrm{BiasedRelativeWeakFiberProduct}(  \alpha, \beta )[123X. The output is the
+  morphism  [23Xu( \tau )[123X induced by the universal property of the biased relative
+  weak fiber product [23XP[123X of [23X\alpha[123X and [23X\beta[123X.[133X
   

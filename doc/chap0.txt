@@ -6,10 +6,10 @@
                     [1X Construct categories out of given ones [101X
   
   
-                                   2021.10-03
+                                   2021.10-06
   
   
-                                15 October 2021
+                                16 October 2021
   
   
                                 Mohamed Barakat
@@ -53,15 +53,29 @@
     2.5 [33X[0;0YAdd-methods[133X
       2.5-1 AddBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory
       2.5-2 AddBasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory
-      2.5-3 AddEmbeddingOfSumOfImagesOfAllMorphisms
-      2.5-4 AddIsWeakInitial
-      2.5-5 AddIsWeakTerminal
-      2.5-6 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
-      2.5-7 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
-      2.5-8 AddMorphismOntoSumOfImagesOfAllMorphisms
-      2.5-9 AddPostInverse
-      2.5-10 AddPreInverse
-      2.5-11 AddSumOfImagesOfAllMorphisms
+      2.5-3 AddBiasedRelativeWeakFiberProduct
+      2.5-4 AddEmbeddingOfSumOfImagesOfAllMorphisms
+      2.5-5 AddIsWeakInitial
+      2.5-6 AddIsWeakTerminal
+      2.5-7 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
+      2.5-8 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
+      2.5-9 AddMorphismOntoSumOfImagesOfAllMorphisms
+      2.5-10 AddPostInverse
+      2.5-11 AddPreInverse
+      2.5-12 AddProjectionOfBiasedRelativeWeakFiberProduct
+      2.5-13 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.5-14 AddRelativeLift
+      2.5-15 AddSumOfImagesOfAllMorphisms
+      2.5-16 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
+      2.5-17 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+    2.6 [33X[0;0YRelativeLift/RelativeColift[133X
+      2.6-1 RelativeLift
+    2.7 [33X[0;0YBiased relative weak fiber product[133X
+      2.7-1 BiasedRelativeWeakFiberProduct
+      2.7-2 ProjectionOfBiasedRelativeWeakFiberProduct
+      2.7-3 ProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.7-4 UniversalMorphismIntoBiasedRelativeWeakFiberProduct
+      2.7-5 UniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
   
   
   [32X
