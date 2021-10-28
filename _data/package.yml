@@ -1,7 +1,7 @@
 name: CategoryConstructor
-version: "2021.10-07"
+version: "2021.10-08"
 license: "GPL-2.0-or-later"
-date: 2021-10-22
+date: 2021-10-28
 description: |
     Construct categories out of given ones
 
@@ -37,11 +37,11 @@ packageinfo: https://homalg-project.github.io/CategoryConstructor/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2021.10-07/CategoryConstructor-2021.10-07.tar.gz
+      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2021.10-08/CategoryConstructor-2021.10-08.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2021.10-07/CategoryConstructor-2021.10-07.zip
+      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2021.10-08/CategoryConstructor-2021.10-08.zip
 
-pdf: https://github.com/homalg-project/CategoryConstructor/releases/download/v2021.10-07/CategoryConstructor-2021.10-07.pdf
+pdf: https://github.com/homalg-project/CategoryConstructor/releases/download/v2021.10-08/CategoryConstructor-2021.10-08.pdf
 
 abstract: |
 
@@ -54,7 +54,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>Bar21</span>]   <b class='BibAuthor'>Barakat, M.</b>,
      <i class='BibTitle'>CategoryConstructor, Construct categories out of given ones,
-             Version 2021.10-07</i>
+             Version 2021.10-08</i>
      (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/CategoryConstructor">https://homalg-project.github.io/pkg/CategoryConstructor</a></span>.
@@ -62,10 +62,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CategoryConstructor2021.10-07,
+    @misc{ CategoryConstructor2021.10-08,
       author =           {Barakat, M.},
       title =            {{CategoryConstructor},  Construct  categories  out  of
-                          given ones, {V}ersion 2021.10-07},
+                          given ones, {V}ersion 2021.10-08},
       month =            {Oct},
       year =             {2021},
       note =             {GAP package},
