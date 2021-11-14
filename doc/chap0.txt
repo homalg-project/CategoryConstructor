@@ -6,10 +6,10 @@
                     [1X Construct categories out of given ones [101X
   
   
-                                   2021.11-01
+                                   2021.11-02
   
   
-                                3 November 2021
+                                14 November 2021
   
   
                                 Mohamed Barakat
@@ -40,42 +40,48 @@
     2.2 [33X[0;0YIsWeakTerminal and IsWeakInitial[133X
       2.2-1 IsWeakTerminal
       2.2-2 IsWeakInitial
-    2.3 [33X[0;0YEmbeddingOfSumOfImagesOfAllMorphisms[133X
-      2.3-1 MorphismOntoSumOfImagesOfAllMorphisms
-      2.3-2 EmbeddingOfSumOfImagesOfAllMorphisms
-      2.3-3 SumOfImagesOfAllMorphisms
-    2.4 [33X[0;0YSystems of homogeneous linear equations in linear categories[133X
-      2.4-1 MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
-      2.4-2 MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
-      2.4-3 BasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory
-      2.4-4 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory
-      2.4-5 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory
-    2.5 [33X[0;0YAdd-methods[133X
-      2.5-1 AddBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory
-      2.5-2 AddBasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory
-      2.5-3 AddBiasedRelativeWeakFiberProduct
-      2.5-4 AddEmbeddingOfSumOfImagesOfAllMorphisms
-      2.5-5 AddIsWeakInitial
-      2.5-6 AddIsWeakTerminal
-      2.5-7 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
-      2.5-8 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
-      2.5-9 AddMorphismOntoSumOfImagesOfAllMorphisms
-      2.5-10 AddPostInverse
-      2.5-11 AddPreInverse
-      2.5-12 AddProjectionOfBiasedRelativeWeakFiberProduct
-      2.5-13 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.5-14 AddRelativeLift
-      2.5-15 AddSumOfImagesOfAllMorphisms
-      2.5-16 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
-      2.5-17 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-    2.6 [33X[0;0YRelativeLift/RelativeColift[133X
-      2.6-1 RelativeLift
-    2.7 [33X[0;0YBiased relative weak fiber product[133X
-      2.7-1 BiasedRelativeWeakFiberProduct
-      2.7-2 ProjectionOfBiasedRelativeWeakFiberProduct
-      2.7-3 ProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.7-4 UniversalMorphismIntoBiasedRelativeWeakFiberProduct
-      2.7-5 UniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+    2.3 [33X[0;0YRelativeLift/RelativeColift[133X
+      2.3-1 RelativeLift
+    2.4 [33X[0;0YBiased relative weak fiber product[133X
+      2.4-1 BiasedRelativeWeakFiberProduct
+      2.4-2 ProjectionOfBiasedRelativeWeakFiberProduct
+      2.4-3 ProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.4-4 UniversalMorphismIntoBiasedRelativeWeakFiberProduct
+      2.4-5 UniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+    2.5 [33X[0;0YEmbeddingOfSumOfImagesOfAllMorphisms[133X
+      2.5-1 MorphismOntoSumOfImagesOfAllMorphisms
+      2.5-2 EmbeddingOfSumOfImagesOfAllMorphisms
+      2.5-3 SumOfImagesOfAllMorphisms
+    2.6 [33X[0;0YSystems of homogeneous linear equations in linear categories[133X
+      2.6-1 MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
+      2.6-2 MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
+      2.6-3 BasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory
+      2.6-4 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory
+      2.6-5 BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory
+    2.7 [33X[0;0YAdd-methods[133X
+      2.7-1 AddBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory
+      2.7-2 AddBasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory
+      2.7-3 AddBiasedRelativeWeakFiberProduct
+      2.7-4 AddEmbeddingOfSumOfImagesOfAllMorphisms
+      2.7-5 AddIsWeakInitial
+      2.7-6 AddIsWeakTerminal
+      2.7-7 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
+      2.7-8 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
+      2.7-9 AddMorphismOntoSumOfImagesOfAllMorphisms
+      2.7-10 AddPostInverse
+      2.7-11 AddPreInverse
+      2.7-12 AddProjectionOfBiasedRelativeWeakFiberProduct
+      2.7-13 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.7-14 AddRelativeLift
+      2.7-15 AddSumOfImagesOfAllMorphisms
+      2.7-16 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
+      2.7-17 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+  3 [33X[0;0YCategoryConstructor automatic generated documentation[133X
+    3.1 [33X[0;0YCategoryConstructor automatic generated documentation of global
+    functions[133X
+      3.1-1 WriteFileForClosedMonoidalStructure
+      3.1-2 WriteFileForCoclosedMonoidalStructure
+      3.1-3 WriteFileForMonoidalStructure
   
   
   [32X

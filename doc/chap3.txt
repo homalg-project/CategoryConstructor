@@ -1,0 +1,19 @@
+  
+  [1X3 [33X[0;0YCategoryConstructor automatic generated documentation[133X[101X
+  
+  
+  [1X3.1   [33X[0;0YCategoryConstructor   automatic   generated  documentation  of  global[101X
+  [1Xfunctions[133X[101X
+  
+  [1X3.1-1 WriteFileForClosedMonoidalStructure[101X
+  
+  [33X[1;0Y[29X[2XWriteFileForClosedMonoidalStructure[102X( [3Xarg[103X ) [32X function[133X
+  
+  [1X3.1-2 WriteFileForCoclosedMonoidalStructure[101X
+  
+  [33X[1;0Y[29X[2XWriteFileForCoclosedMonoidalStructure[102X( [3Xarg[103X ) [32X function[133X
+  
+  [1X3.1-3 WriteFileForMonoidalStructure[101X
+  
+  [33X[1;0Y[29X[2XWriteFileForMonoidalStructure[102X( [3Xarg[103X ) [32X function[133X
+  
