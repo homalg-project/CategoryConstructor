@@ -10,9 +10,9 @@ SetPackageInfo( rec(
 
 PackageName := "CategoryConstructor",
 Subtitle := "Construct categories out of given ones",
-Version := "2021.11-02",
-Date := "14/11/2021",
-Date := "14/11/2021",
+Version := "2021.11-03",
+Date := "15/11/2021",
+Date := "15/11/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -72,7 +72,7 @@ Dependencies := rec(
   NeededOtherPackages := [
                    [ "GAPDoc", ">= 1.5" ],
                    [ "CAP", ">= 2021.08-03" ],
-                   [ "MonoidalCategories", ">= 2021.11-01" ],
+                   [ "MonoidalCategories", ">= 2021.11-02" ],
                    [ "ToolsForHomalg", ">= 2021.11-01" ],
                    ],
   SuggestedOtherPackages := [
