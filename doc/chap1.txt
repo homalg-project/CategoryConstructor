@@ -6,7 +6,7 @@
   
   [1X1.1-1 CategoryConstructor[101X
   
-  [33X[1;0Y[29X[2XCategoryConstructor[102X( [3Xnothing[103X ) [32X function[133X
+  [33X[1;0Y[29X[2XCategoryConstructor[102X( [3Xnothing[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X category[133X
   
   [33X[0;0YThe function takes no arguments but various options:[133X
