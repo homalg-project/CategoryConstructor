@@ -6,7 +6,7 @@
                     [1X Construct categories out of given ones [101X
   
   
-                                   2022.01-01
+                                   2022.01-02
   
   
                                 23 January 2022
