@@ -393,9 +393,6 @@ end );
 
 ##
 AddDerivationToCAP( PreInverse,
-        [ [ IdentityMorphism, 1 ],
-          [ Lift, 1 ],
-          ],
         
   function( cat, alpha )
     
@@ -405,9 +402,6 @@ end : Description := "PreInverse using IdentityMorphism of Range and Lift" );
 
 ##
 AddDerivationToCAP( PostInverse,
-        [ [ IdentityMorphism, 1 ],
-          [ Colift, 1 ],
-          ],
         
   function( cat, alpha )
     
@@ -436,10 +430,6 @@ end : Description := "UniversalMorphismIntoBiasedRelativeWeakFiberProduct using 
 
 ##
 AddDerivationToCAP( MorphismOntoSumOfImagesOfAllMorphisms,
-        [ [ BasisOfExternalHom, 1 ],
-          [ UniversalMorphismFromZeroObject, 1 ],
-          [ UniversalMorphismFromDirectSum, 1 ]
-          ],
         
   function( cat, a, b )
     local hom;
@@ -457,9 +447,6 @@ end : Description := "MorphismOntoSumOfImagesOfAllMorphisms using BasisOfExterna
 
 ##
 AddDerivationToCAP( EmbeddingOfSumOfImagesOfAllMorphisms,
-        [ [ MorphismOntoSumOfImagesOfAllMorphisms, 1 ],
-          [ ImageEmbedding, 1 ],
-          ],
         
   function( cat, a, b )
     
@@ -470,8 +457,6 @@ end : Description := "EmbeddingOfSumOfImagesOfAllMorphisms using MorphismOntoSum
 
 ##
 AddDerivationToCAP( SumOfImagesOfAllMorphisms,
-        [ [ EmbeddingOfSumOfImagesOfAllMorphisms, 1 ],
-          ],
         
   function( cat, a, b )
     
@@ -482,11 +467,6 @@ end : Description := "SumOfImagesOfAllMorphisms as Source of EmbeddingOfSumOfIma
 
 ##
 AddDerivationToCAP( BasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory,
-        [ [ InterpretMorphismAsMorphismFromDistinguishedObjectToHomomorphismStructure, 1 ],
-          [ HomomorphismStructureOnMorphismsWithGivenObjects, 1 ],
-          [ HomomorphismStructureOnObjects, 1 ],
-          [ InterpretMorphismFromDistinguishedObjectToHomomorphismStructureAsMorphism, 1 ]
-          ],
         
   function( cat, left_coefficients, right_coefficients )
     local m, n, list, H, B, summands;
@@ -527,7 +507,6 @@ AddDerivationToCAP( BasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory,
       );
       
   end :
-  ConditionsListComplete := true,
   CategoryFilter := function( cat )
     local B, conditions;
     
@@ -561,12 +540,6 @@ AddDerivationToCAP( BasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory,
 
 ##
 AddDerivationToCAP( BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory,
-        [ [ InterpretMorphismAsMorphismFromDistinguishedObjectToHomomorphismStructure, 1 ],
-          [ HomomorphismStructureOnMorphismsWithGivenObjects, 1 ],
-          [ HomomorphismStructureOnObjects, 1 ],
-          [ InterpretMorphismFromDistinguishedObjectToHomomorphismStructureAsMorphism, 1 ],
-          [ DistinguishedObjectOfHomomorphismStructure, 1 ]
-          ],
         
   function( cat, alpha, beta, gamma, delta )
     local m, n, list_1, H_1, list_2, H_2, H, B, summands;
@@ -614,7 +587,6 @@ AddDerivationToCAP( BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCateg
       );
       
   end :
-  ConditionsListComplete := true,
   CategoryFilter := function( cat )
     local B, conditions;
     
@@ -648,11 +620,6 @@ AddDerivationToCAP( BasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCateg
 
 ##
 AddDerivationToCAP( MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory,
-        [ [ InterpretMorphismAsMorphismFromDistinguishedObjectToHomomorphismStructure, 1 ],
-          [ HomomorphismStructureOnMorphismsWithGivenObjects, 1 ],
-          [ HomomorphismStructureOnObjects, 1 ],
-          [ InterpretMorphismFromDistinguishedObjectToHomomorphismStructureAsMorphism, 1 ]
-          ],
         
   function( cat, left_coefficients, right_coefficients, right_side )
     local m, n, nu, list, H;
@@ -679,7 +646,6 @@ AddDerivationToCAP( MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory,
     return IsLiftable( RangeCategoryOfHomomorphismStructure( cat ), nu, H ) and IsMonomorphism( RangeCategoryOfHomomorphismStructure( cat ), H );
     
   end :
-  ConditionsListComplete := true,
   CategoryFilter := function( cat )
     local B, conditions;
     
@@ -710,8 +676,6 @@ AddDerivationToCAP( MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory,
 
 ##
 AddDerivationToCAP( MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory,
-        [ [ HomomorphismStructureOnMorphismsWithGivenObjects, 1 ]
-          ],
         
   function( cat, left_coefficients, right_coefficients )
     local m, n, list, H;
@@ -730,7 +694,6 @@ AddDerivationToCAP( MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCa
     return IsMonomorphism( RangeCategoryOfHomomorphismStructure( cat ), H );
     
   end :
-  ConditionsListComplete := true,
   CategoryFilter := function( cat )
     local B, conditions;
     
