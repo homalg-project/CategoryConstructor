@@ -42,16 +42,14 @@
   [2XIsTerminalCategoryWithMultipleObjects[102X, for IsCapCategory 1.2-1 
   [2XIsWeakInitial[102X, for IsCapCategoryObject 2.2-2 
   [2XIsWeakTerminal[102X, for IsCapCategoryObject 2.2-1 
-  [2XLimit[102X, for IsCapCategory, IsList 2.7-2 
-      for IsList, IsList 2.7-2 
+  [2XLimit[102X, for IsList, IsList 2.7-2 
   [2XLimitPair[102X, for IsCapCategory, IsList, IsList 2.7-1 
   [2XMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[102X, for IsList, IsList 2.6-2 
   [2XMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X, for IsList, IsList, IsList 2.6-1 
   [2XMorphismOntoSumOfImagesOfAllMorphisms[102X, for IsCapCategoryObject, IsCapCategoryObject 2.5-1 
   [2XPostInverse[102X, for IsCapCategoryMorphism 2.1-1 
   [2XPreInverse[102X, for IsCapCategoryMorphism 2.1-2 
-  [2XProjectionInFactorOfLimit[102X, for IsCapCategory, IsList, IsInt 2.7-3 
-      for IsList, IsList, IsInt 2.7-3 
+  [2XProjectionInFactorOfLimit[102X, for IsList, IsList, IsInt 2.7-3 
   [2XProjectionInFactorOfLimitWithGivenLimit[102X, for IsList, IsList, IsInt, IsCapCategoryObject 2.7-4 
   [2XProjectionOfBiasedRelativeWeakFiberProduct[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism 2.4-2 
   [2XProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.4-3 

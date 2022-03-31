@@ -247,7 +247,6 @@
   [1X2.7-2 Limit[101X
   
   [33X[1;0Y[29X[2XLimit[102X( [3Xobjs[103X, [3Xdecorated_mors[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XLimit[102X( [3Xcat[103X, [3XD[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Yan object[133X
   
   [33X[0;0YThe  input  is  a  finite  diagram  (or  subquiver)  [3XD[103X  (in  a category [3Xcat[103X)
@@ -263,7 +262,6 @@
   [1X2.7-3 ProjectionInFactorOfLimit[101X
   
   [33X[1;0Y[29X[2XProjectionInFactorOfLimit[102X( [3Xobjects[103X, [3Xdecorated_morphisms[103X, [3Xk[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XProjectionInFactorOfLimit[102X( [3Xcat[103X, [3XD[103X, [3Xk[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( P, P_k )[123X[133X
   
   [33X[0;0YThe input is[133X
