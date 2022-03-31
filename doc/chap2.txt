@@ -384,7 +384,28 @@
   [10XBiasedRelativeWeakFiberProduct[110X.   [23XF:   (   arg2,   arg3,   arg4   )  \mapsto
   \mathtt{BiasedRelativeWeakFiberProduct}(arg2, arg3, arg4)[123X.[133X
   
-  [1X2.8-4 AddEmbeddingOfSumOfImagesOfAllMorphisms[101X
+  [1X2.8-4 AddCoimageObjectFunctorial[101X
+  
+  [33X[1;0Y[29X[2XAddCoimageObjectFunctorial[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoimageObjectFunctorial[110X.    [23XF:    (    alpha,    mu,    alphap   )   \mapsto
+  \mathtt{CoimageObjectFunctorial}(alpha, mu, alphap)[123X.[133X
+  
+  [1X2.8-5 AddCoimageObjectFunctorialWithGivenCoimageObjects[101X
+  
+  [33X[1;0Y[29X[2XAddCoimageObjectFunctorialWithGivenCoimageObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XCoimageObjectFunctorialWithGivenCoimageObjects[110X.  [23XF:  ( C, alpha, mu, alphap,
+  Cp   )   \mapsto  \mathtt{CoimageObjectFunctorialWithGivenCoimageObjects}(C,
+  alpha, mu, alphap, Cp)[123X.[133X
+  
+  [1X2.8-6 AddEmbeddingOfSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddEmbeddingOfSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -394,7 +415,28 @@
   [10XEmbeddingOfSumOfImagesOfAllMorphisms[110X.     [23XF:    (    a,    b    )    \mapsto
   \mathtt{EmbeddingOfSumOfImagesOfAllMorphisms}(a, b)[123X.[133X
   
-  [1X2.8-5 AddIsWeakInitial[101X
+  [1X2.8-7 AddImageObjectFunctorial[101X
+  
+  [33X[1;0Y[29X[2XAddImageObjectFunctorial[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XImageObjectFunctorial[110X.    [23XF:    (    alpha,    nu,    alphap    )    \mapsto
+  \mathtt{ImageObjectFunctorial}(alpha, nu, alphap)[123X.[133X
+  
+  [1X2.8-8 AddImageObjectFunctorialWithGivenImageObjects[101X
+  
+  [33X[1;0Y[29X[2XAddImageObjectFunctorialWithGivenImageObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XImageObjectFunctorialWithGivenImageObjects[110X.  [23XF: ( I, alpha, nu, alphap, Ip )
+  \mapsto  \mathtt{ImageObjectFunctorialWithGivenImageObjects}(I,  alpha,  nu,
+  alphap, Ip)[123X.[133X
+  
+  [1X2.8-9 AddIsWeakInitial[101X
   
   [33X[1;0Y[29X[2XAddIsWeakInitial[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -403,7 +445,7 @@
   given function [23XF[123X to the category for the basic operation [10XIsWeakInitial[110X. [23XF: (
   arg2 ) \mapsto \mathtt{IsWeakInitial}(arg2)[123X.[133X
   
-  [1X2.8-6 AddIsWeakTerminal[101X
+  [1X2.8-10 AddIsWeakTerminal[101X
   
   [33X[1;0Y[29X[2XAddIsWeakTerminal[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -412,7 +454,7 @@
   given  function [23XF[123X to the category for the basic operation [10XIsWeakTerminal[110X. [23XF:
   ( arg2 ) \mapsto \mathtt{IsWeakTerminal}(arg2)[123X.[133X
   
-  [1X2.8-7 AddLimit[101X
+  [1X2.8-11 AddLimit[101X
   
   [33X[1;0Y[29X[2XAddLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -422,7 +464,7 @@
   objects,     decorated_morphisms     )    \mapsto    \mathtt{Limit}(objects,
   decorated_morphisms)[123X.[133X
   
-  [1X2.8-8 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
+  [1X2.8-12 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XAddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -434,7 +476,7 @@
   \mathtt{MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory}(arg2,
   arg3)[123X.[133X
   
-  [1X2.8-9 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
+  [1X2.8-13 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XAddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -446,7 +488,7 @@
   \mathtt{MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory}(arg2, arg3,
   arg4)[123X.[133X
   
-  [1X2.8-10 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
+  [1X2.8-14 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddMorphismOntoSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -456,7 +498,7 @@
   [10XMorphismOntoSumOfImagesOfAllMorphisms[110X.    [23XF:    (    a,    b    )    \mapsto
   \mathtt{MorphismOntoSumOfImagesOfAllMorphisms}(a, b)[123X.[133X
   
-  [1X2.8-11 AddPostInverse[101X
+  [1X2.8-15 AddPostInverse[101X
   
   [33X[1;0Y[29X[2XAddPostInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -465,7 +507,7 @@
   given  function  [23XF[123X to the category for the basic operation [10XPostInverse[110X. [23XF: (
   alpha ) \mapsto \mathtt{PostInverse}(alpha)[123X.[133X
   
-  [1X2.8-12 AddPreInverse[101X
+  [1X2.8-16 AddPreInverse[101X
   
   [33X[1;0Y[29X[2XAddPreInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -474,7 +516,7 @@
   given  function  [23XF[123X  to the category for the basic operation [10XPreInverse[110X. [23XF: (
   alpha ) \mapsto \mathtt{PreInverse}(alpha)[123X.[133X
   
-  [1X2.8-13 AddProjectionInFactorOfLimit[101X
+  [1X2.8-17 AddProjectionInFactorOfLimit[101X
   
   [33X[1;0Y[29X[2XAddProjectionInFactorOfLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -484,7 +526,7 @@
   [10XProjectionInFactorOfLimit[110X.  [23XF:  (  objects, decorated_morphisms, k ) \mapsto
   \mathtt{ProjectionInFactorOfLimit}(objects, decorated_morphisms, k)[123X.[133X
   
-  [1X2.8-14 AddProjectionInFactorOfLimitWithGivenLimit[101X
+  [1X2.8-18 AddProjectionInFactorOfLimitWithGivenLimit[101X
   
   [33X[1;0Y[29X[2XAddProjectionInFactorOfLimitWithGivenLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -495,7 +537,7 @@
   k,  P  )  \mapsto  \mathtt{ProjectionInFactorOfLimitWithGivenLimit}(objects,
   decorated_morphisms, k, P)[123X.[133X
   
-  [1X2.8-15 AddProjectionOfBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-19 AddProjectionOfBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -505,7 +547,7 @@
   [10XProjectionOfBiasedRelativeWeakFiberProduct[110X.   [23XF:   (   a,  b,  c  )  \mapsto
   \mathtt{ProjectionOfBiasedRelativeWeakFiberProduct}(a, b, c)[123X.[133X
   
-  [1X2.8-16 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-20 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -517,7 +559,7 @@
   \mathtt{ProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
   b, c, P)[123X.[133X
   
-  [1X2.8-17 AddRelativeLift[101X
+  [1X2.8-21 AddRelativeLift[101X
   
   [33X[1;0Y[29X[2XAddRelativeLift[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -526,7 +568,7 @@
   given  function [23XF[123X to the category for the basic operation [10XRelativeLift[110X. [23XF: (
   beta, alpha, nu ) \mapsto \mathtt{RelativeLift}(beta, alpha, nu)[123X.[133X
   
-  [1X2.8-18 AddSumOfImagesOfAllMorphisms[101X
+  [1X2.8-22 AddSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -536,7 +578,7 @@
   [10XSumOfImagesOfAllMorphisms[110X.     [23XF:     (     arg2,     arg3     )     \mapsto
   \mathtt{SumOfImagesOfAllMorphisms}(arg2, arg3)[123X.[133X
   
-  [1X2.8-19 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-23 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -547,7 +589,7 @@
   \mapsto  \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProduct}(a,  b,
   c, t)[123X.[133X
   
-  [1X2.8-20 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-24 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -559,7 +601,7 @@
   \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
   b, c, t, P)[123X.[133X
   
-  [1X2.8-21 AddUniversalMorphismIntoLimit[101X
+  [1X2.8-25 AddUniversalMorphismIntoLimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -570,7 +612,7 @@
   \mapsto \mathtt{UniversalMorphismIntoLimit}(objects, decorated_morphisms, T,
   tau)[123X.[133X
   
-  [1X2.8-22 AddUniversalMorphismIntoLimitWithGivenLimit[101X
+  [1X2.8-26 AddUniversalMorphismIntoLimitWithGivenLimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoLimitWithGivenLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -581,4 +623,54 @@
   T,                tau,               P               )               \mapsto
   \mathtt{UniversalMorphismIntoLimitWithGivenLimit}(objects,
   decorated_morphisms, T, tau, P)[123X.[133X
+  
+  
+  [1X2.9 [33X[0;0YImageObjectFunctorial[133X[101X
+  
+  [1X2.9-1 ImageObjectFunctorial[101X
+  
+  [33X[1;0Y[29X[2XImageObjectFunctorial[102X( [3Xalpha[103X, [3Xnu[103X, [3Xalpha_prime[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya   morphism  in  [23X\mathrm{Hom}(  \mathrm{ImageObject}(  \alpha  ),
+            \mathrm{ImageObject}( \alpha' ) )[123X[133X
+  
+  [33X[0;0YThe   arguments  are  three  morphisms  [23X\alpha:  A  \rightarrow  B[123X,  [23X\nu:  B
+  \rightarrow  B'[123X,  [23X\alpha':  A'  \rightarrow  B'[123X.  The output is the morphism
+  [23X\mathrm{ImageObject}(  \alpha  ) \rightarrow \mathrm{ImageObject}( \alpha' )[123X
+  given by the functoriality of the image.[133X
+  
+  [1X2.9-2 ImageObjectFunctorialWithGivenImageObjects[101X
+  
+  [33X[1;0Y[29X[2XImageObjectFunctorialWithGivenImageObjects[102X( [3Xs[103X, [3Xalpha[103X, [3Xnu[103X, [3Xalpha_prime[103X, [3Xr[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( s, r )[123X[133X
+  
+  [33X[0;0YThe  arguments  are  an  object  [23Xs  =  \mathrm{ImageObject}( \alpha )[123X, three
+  morphisms  [23X\alpha:  A  \rightarrow  B[123X,  [23X\nu:  B  \rightarrow B'[123X, [23X\alpha': A'
+  \rightarrow  B'[123X,  and  an  object  [23Xr  = \mathrm{ImageObject}( \alpha' )[123X. The
+  output   is   the   morphism   [23X\mathrm{ImageObject}(  \alpha  )  \rightarrow
+  \mathrm{ImageObject}( \alpha' )[123X given by the functoriality of the image.[133X
+  
+  
+  [1X2.10 [33X[0;0YCoimageObjectFunctorial[133X[101X
+  
+  [1X2.10-1 CoimageObjectFunctorial[101X
+  
+  [33X[1;0Y[29X[2XCoimageObjectFunctorial[102X( [3Xalpha[103X, [3Xmu[103X, [3Xalpha_prime[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya   morphism  in  [23X\mathrm{Hom}(\mathrm{CoimageObject}(  \alpha  ),
+            \mathrm{CoimageObject}( \alpha' ))[123X[133X
+  
+  [33X[0;0YThe   arguments  are  three  morphisms  [23X\alpha:  A  \rightarrow  B,  \mu:  A
+  \rightarrow  A',  \alpha':  A'  \rightarrow  B'[123X.  The output is the morphism
+  [23X\mathrm{CoimageObject}( \alpha ) \rightarrow \mathrm{CoimageObject}( \alpha'
+  )[123X given by the functoriality of the coimage.[133X
+  
+  [1X2.10-2 CoimageObjectFunctorialWithGivenCoimageObjects[101X
+  
+  [33X[1;0Y[29X[2XCoimageObjectFunctorialWithGivenCoimageObjects[102X( [3Xs[103X, [3Xalpha[103X, [3Xmu[103X, [3Xalpha_prime[103X, [3Xr[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(s, r)[123X[133X
+  
+  [33X[0;0YThe  arguments  are  an  object  [23Xs = \mathrm{CoimageObject}( \alpha )[123X, three
+  morphisms  [23X\alpha:  A  \rightarrow  B,  \mu:  A  \rightarrow A', \alpha': A'
+  \rightarrow  B'[123X,  and  an  object [23Xr = \mathrm{CoimageObject}( \alpha' )[123X. The
+  output   is   the  morphism  [23X\mathrm{CoimageObject}(  \alpha  )  \rightarrow
+  \mathrm{CoimageObject}( \alpha' )[123X given by the functoriality of the coimage.[133X
   

@@ -6,10 +6,10 @@
                     [1X Construct categories out of given ones [101X
   
   
-                                   2022.02-11
+                                   2022.03-01
   
   
-                                22 February 2022
+                                 31 March 2022
   
   
                                 Mohamed Barakat
@@ -73,25 +73,35 @@
       2.8-1 AddBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory
       2.8-2 AddBasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory
       2.8-3 AddBiasedRelativeWeakFiberProduct
-      2.8-4 AddEmbeddingOfSumOfImagesOfAllMorphisms
-      2.8-5 AddIsWeakInitial
-      2.8-6 AddIsWeakTerminal
-      2.8-7 AddLimit
-      2.8-8 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
-      2.8-9 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
-      2.8-10 AddMorphismOntoSumOfImagesOfAllMorphisms
-      2.8-11 AddPostInverse
-      2.8-12 AddPreInverse
-      2.8-13 AddProjectionInFactorOfLimit
-      2.8-14 AddProjectionInFactorOfLimitWithGivenLimit
-      2.8-15 AddProjectionOfBiasedRelativeWeakFiberProduct
-      2.8-16 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.8-17 AddRelativeLift
-      2.8-18 AddSumOfImagesOfAllMorphisms
-      2.8-19 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
-      2.8-20 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.8-21 AddUniversalMorphismIntoLimit
-      2.8-22 AddUniversalMorphismIntoLimitWithGivenLimit
+      2.8-4 AddCoimageObjectFunctorial
+      2.8-5 AddCoimageObjectFunctorialWithGivenCoimageObjects
+      2.8-6 AddEmbeddingOfSumOfImagesOfAllMorphisms
+      2.8-7 AddImageObjectFunctorial
+      2.8-8 AddImageObjectFunctorialWithGivenImageObjects
+      2.8-9 AddIsWeakInitial
+      2.8-10 AddIsWeakTerminal
+      2.8-11 AddLimit
+      2.8-12 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
+      2.8-13 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
+      2.8-14 AddMorphismOntoSumOfImagesOfAllMorphisms
+      2.8-15 AddPostInverse
+      2.8-16 AddPreInverse
+      2.8-17 AddProjectionInFactorOfLimit
+      2.8-18 AddProjectionInFactorOfLimitWithGivenLimit
+      2.8-19 AddProjectionOfBiasedRelativeWeakFiberProduct
+      2.8-20 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.8-21 AddRelativeLift
+      2.8-22 AddSumOfImagesOfAllMorphisms
+      2.8-23 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
+      2.8-24 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.8-25 AddUniversalMorphismIntoLimit
+      2.8-26 AddUniversalMorphismIntoLimitWithGivenLimit
+    2.9 [33X[0;0YImageObjectFunctorial[133X
+      2.9-1 ImageObjectFunctorial
+      2.9-2 ImageObjectFunctorialWithGivenImageObjects
+    2.10 [33X[0;0YCoimageObjectFunctorial[133X
+      2.10-1 CoimageObjectFunctorial
+      2.10-2 CoimageObjectFunctorialWithGivenCoimageObjects
   3 [33X[0;0YTools[133X
     3.1 [33X[0;0YGlobal functions[133X
       3.1-1 WriteFileForClosedMonoidalStructure
