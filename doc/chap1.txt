@@ -67,6 +67,17 @@
   [4X[32X  Example  [32X[104X
     [4X[25Xgap>[125X [27XT := TerminalCategoryWithMultipleObjects( );[127X[104X
     [4X[28XTerminalCategoryWithMultipleObjects[128X[104X
+    [4X[25Xgap>[125X [27XInfoOfInstalledOperationsOfCategory( T );[127X[104X
+    [4X[28X137 primitive operations were used to derive 561 operations for this category which[128X[104X
+    [4X[28X* IsEquippedWithHomomorphismStructure[128X[104X
+    [4X[28X* IsLinearCategoryOverCommutativeRing[128X[104X
+    [4X[28X* IsAbelianCategoryWithEnoughInjectives[128X[104X
+    [4X[28X* IsRigidSymmetricClosedMonoidalCategory[128X[104X
+    [4X[28X* IsClosedMonoidalCategory[128X[104X
+    [4X[28X* IsRigidSymmetricCoclosedMonoidalCategory[128X[104X
+    [4X[28X* IsElementaryTopos[128X[104X
+    [4X[28X* IsCocartesianCoclosedCategory[128X[104X
+    [4X[28X* IsAbelianCategoryWithEnoughProjectives[128X[104X
     [4X[25Xgap>[125X [27Xa := "a" / T;[127X[104X
     [4X[28X<An object in TerminalCategoryWithMultipleObjects>[128X[104X
     [4X[25Xgap>[125X [27XDisplay( a );[127X[104X
