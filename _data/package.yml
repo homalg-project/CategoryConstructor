@@ -1,5 +1,5 @@
 name: CategoryConstructor
-version: "2022.05-05"
+version: "2022.05-06"
 license: "GPL-2.0-or-later"
 date: 2022-05-23
 description: |
@@ -23,7 +23,7 @@ needed-pkgs:
       version: ">= 2022.05-04"
       url: "https://homalg-project.github.io/pkg/CAP"
     - name: "MonoidalCategories"
-      version: ">= 2022.05-04"
+      version: ">= 2022.05-05"
       url: "https://homalg-project.github.io/pkg/MonoidalCategories"
     - name: "ToolsForHomalg"
       version: ">= 2021.11-01"
@@ -40,11 +40,11 @@ packageinfo: https://homalg-project.github.io/CategoryConstructor/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2022.05-05/CategoryConstructor-2022.05-05.tar.gz
+      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2022.05-06/CategoryConstructor-2022.05-06.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2022.05-05/CategoryConstructor-2022.05-05.zip
+      url: https://github.com/homalg-project/CategoryConstructor/releases/download/v2022.05-06/CategoryConstructor-2022.05-06.zip
 
-pdf: https://github.com/homalg-project/CategoryConstructor/releases/download/v2022.05-05/CategoryConstructor-2022.05-05.pdf
+pdf: https://github.com/homalg-project/CategoryConstructor/releases/download/v2022.05-06/CategoryConstructor-2022.05-06.pdf
 
 abstract: |
 
@@ -57,7 +57,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>Bar22</span>]   <b class='BibAuthor'>Barakat, M.</b>,
      <i class='BibTitle'>CategoryConstructor, Construct categories out of given ones,
-             Version 2022.05-05</i>
+             Version 2022.05-06</i>
      (<span class='BibYear'>2022</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/CategoryConstructor">https://homalg-project.github.io/pkg/CategoryConstructor</a></span>.
@@ -65,10 +65,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ CategoryConstructor2022.05-05,
+    @misc{ CategoryConstructor2022.05-06,
       author =           {Barakat, M.},
       title =            {{CategoryConstructor},  Construct  categories  out  of
-                          given ones, {V}ersion 2022.05-05},
+                          given ones, {V}ersion 2022.05-06},
       month =            {May},
       year =             {2022},
       note =             {GAP package},

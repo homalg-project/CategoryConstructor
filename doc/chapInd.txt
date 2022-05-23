@@ -57,9 +57,6 @@
   [2XUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.4-5 
   [2XUniversalMorphismIntoLimit[102X, for IsList, IsList, IsCapCategoryObject, IsList 2.7-5 
   [2XUniversalMorphismIntoLimitWithGivenLimit[102X, for IsList, IsList, IsCapCategoryObject, IsList, IsCapCategoryObject 2.7-6 
-  [2XWriteFileForClosedMonoidalStructure[102X 3.1-1 
-  [2XWriteFileForCoclosedMonoidalStructure[102X 3.1-2 
-  [2XWriteFileForMonoidalStructure[102X 3.1-3 
   
   
   -------------------------------------------------------
