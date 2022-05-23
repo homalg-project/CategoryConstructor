@@ -2,7 +2,6 @@
   
   [1XIndex[101X
   
-  [2X/[102X, for IsString, IsTerminalCategoryWithMultipleObjects 1.2-3 
   [2XAddBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[102X, for IsCapCategory, IsFunction 2.8-1 
   [2XAddBasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory[102X, for IsCapCategory, IsFunction 2.8-2 
   [2XAddBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-3 
@@ -39,7 +38,6 @@
   [2XEmbeddingOfSumOfImagesOfAllMorphisms[102X, for IsCapCategoryObject, IsCapCategoryObject 2.5-2 
   [2XImageObjectFunctorial[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism 2.9-1 
   [2XImageObjectFunctorialWithGivenImageObjects[102X, for IsCapCategoryObject, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.9-2 
-  [2XIsTerminalCategoryWithMultipleObjects[102X, for IsCapCategory 1.2-1 
   [2XIsWeakInitial[102X, for IsCapCategoryObject 2.2-2 
   [2XIsWeakTerminal[102X, for IsCapCategoryObject 2.2-1 
   [2XLimit[102X, for IsList, IsList 2.7-2 
@@ -55,7 +53,6 @@
   [2XProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.4-3 
   [2XRelativeLift[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism 2.3-1 
   [2XSumOfImagesOfAllMorphisms[102X, for IsCapCategoryObject, IsCapCategoryObject 2.5-3 
-  [2XTerminalCategoryWithMultipleObjects[102X 1.2-2 
   [2XUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism 2.4-4 
   [2XUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.4-5 
   [2XUniversalMorphismIntoLimit[102X, for IsList, IsList, IsCapCategoryObject, IsList 2.7-5 

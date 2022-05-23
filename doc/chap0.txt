@@ -6,7 +6,7 @@
                     [1X Construct categories out of given ones [101X
   
   
-                                   2022.05-04
+                                   2022.05-05
   
   
                                   23 May 2022
@@ -33,10 +33,6 @@
   1 [33X[0;0YThe category constructor[133X
     1.1 [33X[0;0YConstructors[133X
       1.1-1 CategoryConstructor
-    1.2 [33X[0;0YExample[133X
-      1.2-1 IsTerminalCategoryWithMultipleObjects
-      1.2-2 TerminalCategoryWithMultipleObjects
-      1.2-3 /
   2 [33X[0;0YFuther CAP operations[133X
     2.1 [33X[0;0YPreInverse and PostInverse[133X
       2.1-1 PostInverse
