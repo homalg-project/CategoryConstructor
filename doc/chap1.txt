@@ -68,14 +68,12 @@
     [4X[25Xgap>[125X [27XT := TerminalCategoryWithMultipleObjects( );[127X[104X
     [4X[28XTerminalCategoryWithMultipleObjects[128X[104X
     [4X[25Xgap>[125X [27XInfoOfInstalledOperationsOfCategory( T );[127X[104X
-    [4X[28X133 primitive operations were used to derive 561 operations for this category[128X[104X
+    [4X[28X116 primitive operations were used to derive 471 operations for this category[128X[104X
     [4X[28Xwhich constructively[128X[104X
     [4X[28X* IsEquippedWithHomomorphismStructure[128X[104X
     [4X[28X* IsLinearCategoryOverCommutativeRing[128X[104X
     [4X[28X* IsCodistributiveCocartesianCategory[128X[104X
     [4X[28X* IsBicartesianCoclosedCategory[128X[104X
-    [4X[28X* IsAbelianCategoryWithEnoughInjectives[128X[104X
-    [4X[28X* IsAbelianCategoryWithEnoughProjectives[128X[104X
     [4X[28X* IsRigidSymmetricClosedMonoidalCategory[128X[104X
     [4X[28X* IsRigidSymmetricCoclosedMonoidalCategory[128X[104X
     [4X[28X* IsElementaryTopos[128X[104X
