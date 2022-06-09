@@ -6,10 +6,10 @@
                     [1X Construct categories out of given ones [101X
   
   
-                                   2022.05-08
+                                   2022.06-02
   
   
-                                  26 May 2022
+                                  9 June 2022
   
   
                                 Mohamed Barakat
@@ -71,33 +71,45 @@
       2.8-3 AddBiasedRelativeWeakFiberProduct
       2.8-4 AddCoimageObjectFunctorial
       2.8-5 AddCoimageObjectFunctorialWithGivenCoimageObjects
-      2.8-6 AddEmbeddingOfSumOfImagesOfAllMorphisms
-      2.8-7 AddImageObjectFunctorial
-      2.8-8 AddImageObjectFunctorialWithGivenImageObjects
-      2.8-9 AddIsWeakInitial
-      2.8-10 AddIsWeakTerminal
-      2.8-11 AddLimit
-      2.8-12 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
-      2.8-13 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
-      2.8-14 AddMorphismOntoSumOfImagesOfAllMorphisms
-      2.8-15 AddPostInverse
-      2.8-16 AddPreInverse
-      2.8-17 AddProjectionInFactorOfLimit
-      2.8-18 AddProjectionInFactorOfLimitWithGivenLimit
-      2.8-19 AddProjectionOfBiasedRelativeWeakFiberProduct
-      2.8-20 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.8-21 AddRelativeLift
-      2.8-22 AddSumOfImagesOfAllMorphisms
-      2.8-23 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
-      2.8-24 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.8-25 AddUniversalMorphismIntoLimit
-      2.8-26 AddUniversalMorphismIntoLimitWithGivenLimit
+      2.8-6 AddColimit
+      2.8-7 AddEmbeddingOfSumOfImagesOfAllMorphisms
+      2.8-8 AddImageObjectFunctorial
+      2.8-9 AddImageObjectFunctorialWithGivenImageObjects
+      2.8-10 AddInjectionOfCofactorOfColimit
+      2.8-11 AddInjectionOfCofactorOfColimitWithGivenColimit
+      2.8-12 AddIsWeakInitial
+      2.8-13 AddIsWeakTerminal
+      2.8-14 AddLimit
+      2.8-15 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
+      2.8-16 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
+      2.8-17 AddMorphismOntoSumOfImagesOfAllMorphisms
+      2.8-18 AddPostInverse
+      2.8-19 AddPreInverse
+      2.8-20 AddProjectionInFactorOfLimit
+      2.8-21 AddProjectionInFactorOfLimitWithGivenLimit
+      2.8-22 AddProjectionOfBiasedRelativeWeakFiberProduct
+      2.8-23 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.8-24 AddRelativeLift
+      2.8-25 AddSumOfImagesOfAllMorphisms
+      2.8-26 AddUniversalMorphismFromColimit
+      2.8-27 AddUniversalMorphismFromColimitWithGivenColimit
+      2.8-28 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
+      2.8-29 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.8-30 AddUniversalMorphismIntoLimit
+      2.8-31 AddUniversalMorphismIntoLimitWithGivenLimit
     2.9 [33X[0;0YImageObjectFunctorial[133X
       2.9-1 ImageObjectFunctorial
       2.9-2 ImageObjectFunctorialWithGivenImageObjects
     2.10 [33X[0;0YCoimageObjectFunctorial[133X
       2.10-1 CoimageObjectFunctorial
       2.10-2 CoimageObjectFunctorialWithGivenCoimageObjects
+    2.11 [33X[0;0YColimit[133X
+      2.11-1 ColimitPair
+      2.11-2 Colimit
+      2.11-3 InjectionOfCofactorOfColimit
+      2.11-4 InjectionOfCofactorOfColimitWithGivenColimit
+      2.11-5 UniversalMorphismFromColimit
+      2.11-6 UniversalMorphismFromColimitWithGivenColimit
   
   
   [32X

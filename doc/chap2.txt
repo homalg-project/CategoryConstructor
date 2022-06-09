@@ -403,7 +403,17 @@
   Cp   )   \mapsto  \mathtt{CoimageObjectFunctorialWithGivenCoimageObjects}(C,
   alpha, mu, alphap, Cp)[123X.[133X
   
-  [1X2.8-6 AddEmbeddingOfSumOfImagesOfAllMorphisms[101X
+  [1X2.8-6 AddColimit[101X
+  
+  [33X[1;0Y[29X[2XAddColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given  function  [23XF[123X  to  the  category  for the basic operation [10XColimit[110X. [23XF: (
+  objects,    decorated_morphisms    )    \mapsto    \mathtt{Colimit}(objects,
+  decorated_morphisms)[123X.[133X
+  
+  [1X2.8-7 AddEmbeddingOfSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddEmbeddingOfSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -413,7 +423,7 @@
   [10XEmbeddingOfSumOfImagesOfAllMorphisms[110X.     [23XF:    (    a,    b    )    \mapsto
   \mathtt{EmbeddingOfSumOfImagesOfAllMorphisms}(a, b)[123X.[133X
   
-  [1X2.8-7 AddImageObjectFunctorial[101X
+  [1X2.8-8 AddImageObjectFunctorial[101X
   
   [33X[1;0Y[29X[2XAddImageObjectFunctorial[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -423,7 +433,7 @@
   [10XImageObjectFunctorial[110X.    [23XF:    (    alpha,    nu,    alphap    )    \mapsto
   \mathtt{ImageObjectFunctorial}(alpha, nu, alphap)[123X.[133X
   
-  [1X2.8-8 AddImageObjectFunctorialWithGivenImageObjects[101X
+  [1X2.8-9 AddImageObjectFunctorialWithGivenImageObjects[101X
   
   [33X[1;0Y[29X[2XAddImageObjectFunctorialWithGivenImageObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -434,7 +444,29 @@
   \mapsto  \mathtt{ImageObjectFunctorialWithGivenImageObjects}(I,  alpha,  nu,
   alphap, Ip)[123X.[133X
   
-  [1X2.8-9 AddIsWeakInitial[101X
+  [1X2.8-10 AddInjectionOfCofactorOfColimit[101X
+  
+  [33X[1;0Y[29X[2XAddInjectionOfCofactorOfColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XInjectionOfCofactorOfColimit[110X. [23XF: ( objects, decorated_morphisms, k ) \mapsto
+  \mathtt{InjectionOfCofactorOfColimit}(objects, decorated_morphisms, k)[123X.[133X
+  
+  [1X2.8-11 AddInjectionOfCofactorOfColimitWithGivenColimit[101X
+  
+  [33X[1;0Y[29X[2XAddInjectionOfCofactorOfColimitWithGivenColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XInjectionOfCofactorOfColimitWithGivenColimit[110X.       [23XF:       (      objects,
+  decorated_morphisms,            k,           P           )           \mapsto
+  \mathtt{InjectionOfCofactorOfColimitWithGivenColimit}(objects,
+  decorated_morphisms, k, P)[123X.[133X
+  
+  [1X2.8-12 AddIsWeakInitial[101X
   
   [33X[1;0Y[29X[2XAddIsWeakInitial[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -443,7 +475,7 @@
   given function [23XF[123X to the category for the basic operation [10XIsWeakInitial[110X. [23XF: (
   arg2 ) \mapsto \mathtt{IsWeakInitial}(arg2)[123X.[133X
   
-  [1X2.8-10 AddIsWeakTerminal[101X
+  [1X2.8-13 AddIsWeakTerminal[101X
   
   [33X[1;0Y[29X[2XAddIsWeakTerminal[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -452,7 +484,7 @@
   given  function [23XF[123X to the category for the basic operation [10XIsWeakTerminal[110X. [23XF:
   ( arg2 ) \mapsto \mathtt{IsWeakTerminal}(arg2)[123X.[133X
   
-  [1X2.8-11 AddLimit[101X
+  [1X2.8-14 AddLimit[101X
   
   [33X[1;0Y[29X[2XAddLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -462,7 +494,7 @@
   objects,     decorated_morphisms     )    \mapsto    \mathtt{Limit}(objects,
   decorated_morphisms)[123X.[133X
   
-  [1X2.8-12 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
+  [1X2.8-15 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XAddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -474,7 +506,7 @@
   \mathtt{MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory}(arg2,
   arg3)[123X.[133X
   
-  [1X2.8-13 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
+  [1X2.8-16 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XAddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -486,7 +518,7 @@
   \mathtt{MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory}(arg2, arg3,
   arg4)[123X.[133X
   
-  [1X2.8-14 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
+  [1X2.8-17 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddMorphismOntoSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -496,7 +528,7 @@
   [10XMorphismOntoSumOfImagesOfAllMorphisms[110X.    [23XF:    (    a,    b    )    \mapsto
   \mathtt{MorphismOntoSumOfImagesOfAllMorphisms}(a, b)[123X.[133X
   
-  [1X2.8-15 AddPostInverse[101X
+  [1X2.8-18 AddPostInverse[101X
   
   [33X[1;0Y[29X[2XAddPostInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -505,7 +537,7 @@
   given  function  [23XF[123X to the category for the basic operation [10XPostInverse[110X. [23XF: (
   alpha ) \mapsto \mathtt{PostInverse}(alpha)[123X.[133X
   
-  [1X2.8-16 AddPreInverse[101X
+  [1X2.8-19 AddPreInverse[101X
   
   [33X[1;0Y[29X[2XAddPreInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -514,7 +546,7 @@
   given  function  [23XF[123X  to the category for the basic operation [10XPreInverse[110X. [23XF: (
   alpha ) \mapsto \mathtt{PreInverse}(alpha)[123X.[133X
   
-  [1X2.8-17 AddProjectionInFactorOfLimit[101X
+  [1X2.8-20 AddProjectionInFactorOfLimit[101X
   
   [33X[1;0Y[29X[2XAddProjectionInFactorOfLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -524,7 +556,7 @@
   [10XProjectionInFactorOfLimit[110X.  [23XF:  (  objects, decorated_morphisms, k ) \mapsto
   \mathtt{ProjectionInFactorOfLimit}(objects, decorated_morphisms, k)[123X.[133X
   
-  [1X2.8-18 AddProjectionInFactorOfLimitWithGivenLimit[101X
+  [1X2.8-21 AddProjectionInFactorOfLimitWithGivenLimit[101X
   
   [33X[1;0Y[29X[2XAddProjectionInFactorOfLimitWithGivenLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -535,7 +567,7 @@
   k,  P  )  \mapsto  \mathtt{ProjectionInFactorOfLimitWithGivenLimit}(objects,
   decorated_morphisms, k, P)[123X.[133X
   
-  [1X2.8-19 AddProjectionOfBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-22 AddProjectionOfBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -545,7 +577,7 @@
   [10XProjectionOfBiasedRelativeWeakFiberProduct[110X.   [23XF:   (   a,  b,  c  )  \mapsto
   \mathtt{ProjectionOfBiasedRelativeWeakFiberProduct}(a, b, c)[123X.[133X
   
-  [1X2.8-20 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-23 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -557,7 +589,7 @@
   \mathtt{ProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
   b, c, P)[123X.[133X
   
-  [1X2.8-21 AddRelativeLift[101X
+  [1X2.8-24 AddRelativeLift[101X
   
   [33X[1;0Y[29X[2XAddRelativeLift[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -566,7 +598,7 @@
   given  function [23XF[123X to the category for the basic operation [10XRelativeLift[110X. [23XF: (
   beta, alpha, nu ) \mapsto \mathtt{RelativeLift}(beta, alpha, nu)[123X.[133X
   
-  [1X2.8-22 AddSumOfImagesOfAllMorphisms[101X
+  [1X2.8-25 AddSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -576,7 +608,30 @@
   [10XSumOfImagesOfAllMorphisms[110X.     [23XF:     (     arg2,     arg3     )     \mapsto
   \mathtt{SumOfImagesOfAllMorphisms}(arg2, arg3)[123X.[133X
   
-  [1X2.8-23 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-26 AddUniversalMorphismFromColimit[101X
+  
+  [33X[1;0Y[29X[2XAddUniversalMorphismFromColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XUniversalMorphismFromColimit[110X.  [23XF:  (  objects, decorated_morphisms, T, tau )
+  \mapsto  \mathtt{UniversalMorphismFromColimit}(objects, decorated_morphisms,
+  T, tau)[123X.[133X
+  
+  [1X2.8-27 AddUniversalMorphismFromColimitWithGivenColimit[101X
+  
+  [33X[1;0Y[29X[2XAddUniversalMorphismFromColimitWithGivenColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XUniversalMorphismFromColimitWithGivenColimit[110X.       [23XF:       (      objects,
+  decorated_morphisms,         T,        tau,        P        )        \mapsto
+  \mathtt{UniversalMorphismFromColimitWithGivenColimit}(objects,
+  decorated_morphisms, T, tau, P)[123X.[133X
+  
+  [1X2.8-28 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -587,7 +642,7 @@
   \mapsto  \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProduct}(a,  b,
   c, t)[123X.[133X
   
-  [1X2.8-24 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-29 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -599,7 +654,7 @@
   \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
   b, c, t, P)[123X.[133X
   
-  [1X2.8-25 AddUniversalMorphismIntoLimit[101X
+  [1X2.8-30 AddUniversalMorphismIntoLimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -610,7 +665,7 @@
   \mapsto \mathtt{UniversalMorphismIntoLimit}(objects, decorated_morphisms, T,
   tau)[123X.[133X
   
-  [1X2.8-26 AddUniversalMorphismIntoLimitWithGivenLimit[101X
+  [1X2.8-31 AddUniversalMorphismIntoLimitWithGivenLimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoLimitWithGivenLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -671,4 +726,127 @@
   \rightarrow  B'[123X,  and  an  object [23Xr = \mathrm{CoimageObject}( \alpha' )[123X. The
   output   is   the  morphism  [23X\mathrm{CoimageObject}(  \alpha  )  \rightarrow
   \mathrm{CoimageObject}( \alpha' )[123X given by the functoriality of the coimage.[133X
+  
+  
+  [1X2.11 [33X[0;0YColimit[133X[101X
+  
+  [1X2.11-1 ColimitPair[101X
+  
+  [33X[1;0Y[29X[2XColimitPair[102X( [3Xcat[103X, [3Xobjs[103X, [3Xdecorated_mors[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya pair of morphisms[133X
+  
+  [33X[0;0YThe input is[133X
+  
+  [30X    [33X[0;6Ya category [3Xcat[103X and[133X
+  
+  [30X    [33X[0;6Ya finite diagram (or subquiver) in [3Xcat[103X given by[133X
+  
+        [30X    [33X[0;12Ya list [3Xobjs[103X of objects in [3Xcat[103X, and[133X
+  
+        [30X    [33X[0;12Ya   list  [3Xdecorated_mors[103X  of  triples  [3X[  i,  mor,  j  ][103X,  where
+              [3Xmor[103X:[3Xobjs[103X[[3Xi[103X] [23X\to[123X [3Xobjs[103X[[3Xj[103X] is a morphism in [3Xcat[103X.[133X
+  
+  [33X[0;0YThe output is a pair of parallel morphisms in [3Xcat[103X, the binary coequalizer of
+  which is the colimit of the diagram.[133X
+  
+  [1X2.11-2 Colimit[101X
+  
+  [33X[1;0Y[29X[2XColimit[102X( [3Xobjs[103X, [3Xdecorated_mors[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Yan object[133X
+  
+  [33X[0;0YThe  input  is  a  finite  diagram  (or  subquiver)  [3XD[103X  (in  a category [3Xcat[103X)
+  consisting of[133X
+  
+  [30X    [33X[0;6Ya list [3Xobjs[103X of objects in [3Xcat[103X and[133X
+  
+  [30X    [33X[0;6Ya  list [3Xdecorated_mors[103X of triples [3X[ i, mor, j ][103X, where [3Xmor[103X:[3Xobjs[103X[[3Xi[103X] [23X\to[123X
+        [3Xobjs[103X[[3Xj[103X] is a morphism in [3Xcat[103X.[133X
+  
+  [33X[0;0YThe output is the colimit object [23X\mathrm{Colimit}[123X([3XD[103X) of the diagram [3XD[103X.[133X
+  
+  [1X2.11-3 InjectionOfCofactorOfColimit[101X
+  
+  [33X[1;0Y[29X[2XInjectionOfCofactorOfColimit[102X( [3Xobjects[103X, [3Xdecorated_morphisms[103X, [3Xk[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( P_k, P )[123X[133X
+  
+  [33X[0;0YThe input is[133X
+  
+  [30X    [33X[0;6Ya finite diagram (or subquiver) [3XD[103X (in a category [3Xcat[103X) consisting of[133X
+  
+        [30X    [33X[0;12Ya list [3Xobjs[103X = [23X(P_i)_{i = 1 \dots n}[123X of objects in [3Xcat[103X,[133X
+  
+        [30X    [33X[0;12Ya   list  [3Xdecorated_mors[103X  of  triples  [3X[  i,  mor,  j  ][103X,  where
+              [3Xmor[103X:[3Xobjs[103X[[3Xi[103X] [23X\to[123X [3Xobjs[103X[[3Xj[103X] is a morphism in [3Xcat[103X, and[133X
+  
+  [30X    [33X[0;6Ya positive integer [3Xk[103X.[133X
+  
+  [33X[0;0YThe  output  is  the  injection  of  the  [3Xk[103X-th objects [23XP_k =[123X[3Xobjs[103X[[3Xk[103X] into the
+  colimit object [23XP := \mathrm{Colimit}[123X([3XD[103X) of the diagram [3XD[103X.[133X
+  
+  [1X2.11-4 InjectionOfCofactorOfColimitWithGivenColimit[101X
+  
+  [33X[1;0Y[29X[2XInjectionOfCofactorOfColimitWithGivenColimit[102X( [3Xobjects[103X, [3Xdecorated_morphisms[103X, [3Xk[103X, [3XP[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( P_k, P )[123X[133X
+  
+  [33X[0;0YThe input is[133X
+  
+  [30X    [33X[0;6Ya finite diagram (or subquiver) [22XD[122X (in a category [3Xcat[103X) consisting of[133X
+  
+        [30X    [33X[0;12Ya list [3Xobjs[103X = [23X(P_i)_{i = 1 \dots n}[123X of objects in [3Xcat[103X,[133X
+  
+        [30X    [33X[0;12Ya   list  [3Xdecorated_mors[103X  of  triples  [3X[  i,  mor,  j  ][103X,  where
+              [3Xmor[103X:[3Xobjs[103X[[3Xi[103X] [23X\to[123X [3Xobjs[103X[[3Xj[103X] is a morphism in [3Xcat[103X,[133X
+  
+  [30X    [33X[0;6Ya positive integer [3Xk[103X, and[133X
+  
+  [30X    [33X[0;6Yan object [3XP[103X[23X= \mathrm{Colimit}(D)[123X.[133X
+  
+  [33X[0;0YThe  output  is  the  projection  of  [23XP_k =[123X[3Xobjs[103X[[3Xk[103X] into the colimit object [3XP[103X
+  [23X:=\mathrm{Colimit}(D)[123X.[133X
+  
+  [1X2.11-5 UniversalMorphismFromColimit[101X
+  
+  [33X[1;0Y[29X[2XUniversalMorphismFromColimit[102X( [3Xobjects[103X, [3Xdecorated_morphisms[103X, [3XT[103X, [3Xtau[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( \mathrm{Colimit}(D), T )[123X[133X
+  
+  [33X[0;0YThe input is[133X
+  
+  [30X    [33X[0;6Ya finite diagram (or subquiver) [22XD[122X (in a category [22Xcat[122X) consisting of[133X
+  
+        [30X    [33X[0;12Ya list [3Xobjs[103X = [23X(P_i)_{i = 1 \dots n}[123X of objects in [22Xcat[122X,[133X
+  
+        [30X    [33X[0;12Ya   list  [3Xdecorated_mors[103X  of  triples  [3X[  i,  mor,  j  ][103X,  where
+              [3Xmor[103X:[3Xobjs[103X[[3Xi[103X] [23X\to[123X [3Xobjs[103X[[3Xj[103X] is a morphism in [22Xcat[122X,[133X
+  
+  [30X    [33X[0;6Ya test object [3XT[103X, and[133X
+  
+  [30X    [33X[0;6Ya  list  of  morphisms  [23X\tau  =  (  \tau_i: P_i \rightarrow T )[123X in [22Xcat[122X
+        defining a cocone over [23XD[123X.[133X
+  
+  [33X[0;0YThe  output  is  the  morphism  [23Xu( \tau ): \mathrm{Colimit}(D) \rightarrow T[123X
+  given by the universal property of the colimit.[133X
+  
+  [1X2.11-6 UniversalMorphismFromColimitWithGivenColimit[101X
+  
+  [33X[1;0Y[29X[2XUniversalMorphismFromColimitWithGivenColimit[102X( [3Xobjects[103X, [3Xdecorated_morphisms[103X, [3XT[103X, [3Xtau[103X, [3XP[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}( P, T )[123X[133X
+  
+  [33X[0;0YThe input is[133X
+  
+  [30X    [33X[0;6Ya finite diagram (or subquiver) [22XD[122X (in a category [22Xcat[122X) consisting of[133X
+  
+        [30X    [33X[0;12Ya list [3Xobjs[103X = [23X(P_i)_{i = 1 \dots n}[123X of objects in [22Xcat[122X,[133X
+  
+        [30X    [33X[0;12Ya   list  [3Xdecorated_mors[103X  of  triples  [3X[  i,  mor,  j  ][103X,  where
+              [3Xmor[103X:[3Xobjs[103X[[3Xi[103X] [23X\to[123X [3Xobjs[103X[[3Xj[103X] is a morphism in [22Xcat[122X,[133X
+  
+  [30X    [33X[0;6Ya test object [3XT[103X,[133X
+  
+  [30X    [33X[0;6Ya  list  of  morphisms  [23X\tau  =  (  \tau_i: P_i \rightarrow T )[123X in [22Xcat[122X
+        defining a cocone over [23XD[123X, and[133X
+  
+  [30X    [33X[0;6Yan object [3XP[103X[23X= \mathrm{Colimit}(D)[123X.[133X
+  
+  [33X[0;0YThe  output is the morphism [23Xu( \tau ): P = \mathrm{Colimit}(D) \rightarrow T[123X
+  given by the universal property of the colimit.[133X
   

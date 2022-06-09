@@ -7,27 +7,32 @@
   [2XAddBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-3 
   [2XAddCoimageObjectFunctorial[102X, for IsCapCategory, IsFunction 2.8-4 
   [2XAddCoimageObjectFunctorialWithGivenCoimageObjects[102X, for IsCapCategory, IsFunction 2.8-5 
-  [2XAddEmbeddingOfSumOfImagesOfAllMorphisms[102X, for IsCapCategory, IsFunction 2.8-6 
-  [2XAddImageObjectFunctorial[102X, for IsCapCategory, IsFunction 2.8-7 
-  [2XAddImageObjectFunctorialWithGivenImageObjects[102X, for IsCapCategory, IsFunction 2.8-8 
-  [2XAddIsWeakInitial[102X, for IsCapCategory, IsFunction 2.8-9 
-  [2XAddIsWeakTerminal[102X, for IsCapCategory, IsFunction 2.8-10 
-  [2XAddLimit[102X, for IsCapCategory, IsFunction 2.8-11 
-  [2XAddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[102X, for IsCapCategory, IsFunction 2.8-12 
-  [2XAddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X, for IsCapCategory, IsFunction 2.8-13 
-  [2XAddMorphismOntoSumOfImagesOfAllMorphisms[102X, for IsCapCategory, IsFunction 2.8-14 
-  [2XAddPostInverse[102X, for IsCapCategory, IsFunction 2.8-15 
-  [2XAddPreInverse[102X, for IsCapCategory, IsFunction 2.8-16 
-  [2XAddProjectionInFactorOfLimit[102X, for IsCapCategory, IsFunction 2.8-17 
-  [2XAddProjectionInFactorOfLimitWithGivenLimit[102X, for IsCapCategory, IsFunction 2.8-18 
-  [2XAddProjectionOfBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-19 
-  [2XAddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-20 
-  [2XAddRelativeLift[102X, for IsCapCategory, IsFunction 2.8-21 
-  [2XAddSumOfImagesOfAllMorphisms[102X, for IsCapCategory, IsFunction 2.8-22 
-  [2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-23 
-  [2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-24 
-  [2XAddUniversalMorphismIntoLimit[102X, for IsCapCategory, IsFunction 2.8-25 
-  [2XAddUniversalMorphismIntoLimitWithGivenLimit[102X, for IsCapCategory, IsFunction 2.8-26 
+  [2XAddColimit[102X, for IsCapCategory, IsFunction 2.8-6 
+  [2XAddEmbeddingOfSumOfImagesOfAllMorphisms[102X, for IsCapCategory, IsFunction 2.8-7 
+  [2XAddImageObjectFunctorial[102X, for IsCapCategory, IsFunction 2.8-8 
+  [2XAddImageObjectFunctorialWithGivenImageObjects[102X, for IsCapCategory, IsFunction 2.8-9 
+  [2XAddInjectionOfCofactorOfColimit[102X, for IsCapCategory, IsFunction 2.8-10 
+  [2XAddInjectionOfCofactorOfColimitWithGivenColimit[102X, for IsCapCategory, IsFunction 2.8-11 
+  [2XAddIsWeakInitial[102X, for IsCapCategory, IsFunction 2.8-12 
+  [2XAddIsWeakTerminal[102X, for IsCapCategory, IsFunction 2.8-13 
+  [2XAddLimit[102X, for IsCapCategory, IsFunction 2.8-14 
+  [2XAddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[102X, for IsCapCategory, IsFunction 2.8-15 
+  [2XAddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X, for IsCapCategory, IsFunction 2.8-16 
+  [2XAddMorphismOntoSumOfImagesOfAllMorphisms[102X, for IsCapCategory, IsFunction 2.8-17 
+  [2XAddPostInverse[102X, for IsCapCategory, IsFunction 2.8-18 
+  [2XAddPreInverse[102X, for IsCapCategory, IsFunction 2.8-19 
+  [2XAddProjectionInFactorOfLimit[102X, for IsCapCategory, IsFunction 2.8-20 
+  [2XAddProjectionInFactorOfLimitWithGivenLimit[102X, for IsCapCategory, IsFunction 2.8-21 
+  [2XAddProjectionOfBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-22 
+  [2XAddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-23 
+  [2XAddRelativeLift[102X, for IsCapCategory, IsFunction 2.8-24 
+  [2XAddSumOfImagesOfAllMorphisms[102X, for IsCapCategory, IsFunction 2.8-25 
+  [2XAddUniversalMorphismFromColimit[102X, for IsCapCategory, IsFunction 2.8-26 
+  [2XAddUniversalMorphismFromColimitWithGivenColimit[102X, for IsCapCategory, IsFunction 2.8-27 
+  [2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-28 
+  [2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategory, IsFunction 2.8-29 
+  [2XAddUniversalMorphismIntoLimit[102X, for IsCapCategory, IsFunction 2.8-30 
+  [2XAddUniversalMorphismIntoLimitWithGivenLimit[102X, for IsCapCategory, IsFunction 2.8-31 
   [2XBasisOfSolutionsOfHomogeneousDoubleLinearSystemInLinearCategory[102X, for IsList, IsList 2.6-5 
       for IsList, IsList, IsList, IsList 2.6-4 
   [2XBasisOfSolutionsOfHomogeneousLinearSystemInLinearCategory[102X, for IsList, IsList 2.6-3 
@@ -35,9 +40,13 @@
   [2XCategoryConstructor[102X 1.1-1 
   [2XCoimageObjectFunctorial[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism 2.10-1 
   [2XCoimageObjectFunctorialWithGivenCoimageObjects[102X, for IsCapCategoryObject, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.10-2 
+  [2XColimit[102X, for IsList, IsList 2.11-2 
+  [2XColimitPair[102X, for IsCapCategory, IsList, IsList 2.11-1 
   [2XEmbeddingOfSumOfImagesOfAllMorphisms[102X, for IsCapCategoryObject, IsCapCategoryObject 2.5-2 
   [2XImageObjectFunctorial[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism 2.9-1 
   [2XImageObjectFunctorialWithGivenImageObjects[102X, for IsCapCategoryObject, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.9-2 
+  [2XInjectionOfCofactorOfColimit[102X, for IsList, IsList, IsInt 2.11-3 
+  [2XInjectionOfCofactorOfColimitWithGivenColimit[102X, for IsList, IsList, IsInt, IsCapCategoryObject 2.11-4 
   [2XIsWeakInitial[102X, for IsCapCategoryObject 2.2-2 
   [2XIsWeakTerminal[102X, for IsCapCategoryObject 2.2-1 
   [2XLimit[102X, for IsList, IsList 2.7-2 
@@ -53,6 +62,8 @@
   [2XProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.4-3 
   [2XRelativeLift[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism 2.3-1 
   [2XSumOfImagesOfAllMorphisms[102X, for IsCapCategoryObject, IsCapCategoryObject 2.5-3 
+  [2XUniversalMorphismFromColimit[102X, for IsList, IsList, IsCapCategoryObject, IsList 2.11-5 
+  [2XUniversalMorphismFromColimitWithGivenColimit[102X, for IsList, IsList, IsCapCategoryObject, IsList, IsCapCategoryObject 2.11-6 
   [2XUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism 2.4-4 
   [2XUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X, for IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryMorphism, IsCapCategoryObject 2.4-5 
   [2XUniversalMorphismIntoLimit[102X, for IsList, IsList, IsCapCategoryObject, IsList 2.7-5 
