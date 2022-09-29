@@ -241,8 +241,9 @@
         [30X    [33X[0;12Ya   list  [3Xdecorated_mors[103X  of  triples  [3X[  i,  mor,  j  ][103X,  where
               [3Xmor[103X:[3Xobjs[103X[[3Xi[103X] [23X\to[123X [3Xobjs[103X[[3Xj[103X] is a morphism in [3Xcat[103X.[133X
   
-  [33X[0;0YThe  output  is a pair of parallel morphisms in [3Xcat[103X, the binary equalizer of
-  which is the limit of the diagram.[133X
+  [33X[0;0YThe  output  is a pair of an object in [3Xcat[103X and two parallel morphisms having
+  this  object  as source, such that the binary equalizer of the two morphisms
+  is the limit of the diagram.[133X
   
   [1X2.7-2 Limit[101X
   
@@ -746,8 +747,9 @@
         [30X    [33X[0;12Ya   list  [3Xdecorated_mors[103X  of  triples  [3X[  i,  mor,  j  ][103X,  where
               [3Xmor[103X:[3Xobjs[103X[[3Xi[103X] [23X\to[123X [3Xobjs[103X[[3Xj[103X] is a morphism in [3Xcat[103X.[133X
   
-  [33X[0;0YThe output is a pair of parallel morphisms in [3Xcat[103X, the binary coequalizer of
-  which is the colimit of the diagram.[133X
+  [33X[0;0YThe  output  is a pair of an object in [3Xcat[103X and two parallel morphisms having
+  this  object as range, such that the binary coequalizer of the two morphisms
+  is the colimit of the diagram.[133X
   
   [1X2.11-2 Colimit[101X
   
