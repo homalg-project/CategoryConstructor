@@ -4,18 +4,64 @@
   
   [1X2.1 [33X[0;0YPreInverse and PostInverse[133X[101X
   
-  [1X2.1-1 PostInverse[101X
+  [1X2.1-1 ProjectiveCoverObject[101X
+  
+  [33X[1;0Y[29X[2XProjectiveCoverObject[102X( [3XA[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Yan object[133X
+  
+  [33X[0;0YThe argument is an object [23XA[123X. The output is a projective cover of [23XA[123X.[133X
+  
+  [1X2.1-2 EpimorphismFromProjectiveCoverObject[101X
+  
+  [33X[1;0Y[29X[2XEpimorphismFromProjectiveCoverObject[102X( [3XA[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Yan epimorphism[133X
+  
+  [33X[0;0YThe  argument is an object [23XA[123X. The output is an epimorphism from a projective
+  cover of [23XA[123X.[133X
+  
+  [1X2.1-3 EpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject[101X
+  
+  [33X[1;0Y[29X[2XEpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject[102X( [3XA[103X, [3XP[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Yan epimorphism[133X
+  
+  [33X[0;0YThe  argument  is  an  object  [23XA[123X.  The  output  is  the epimorphism from the
+  projective cover [23XP[123X of [23XA[123X.[133X
+  
+  [1X2.1-4 InjectiveEnvelopeObject[101X
+  
+  [33X[1;0Y[29X[2XInjectiveEnvelopeObject[102X( [3XA[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Yan object[133X
+  
+  [33X[0;0YThe argument is an object [23XA[123X. The output is an injective envelope of [23XA[123X.[133X
+  
+  [1X2.1-5 MonomorphismIntoInjectiveEnvelopeObject[101X
+  
+  [33X[1;0Y[29X[2XMonomorphismIntoInjectiveEnvelopeObject[102X( [3XA[103X ) [32X attribute[133X
+  [6XReturns:[106X  [33X[0;10Ya monomorphism[133X
+  
+  [33X[0;0YThe  argument is an object [23XA[123X. The output is a monomorphism into an injective
+  envelope of [23XA[123X.[133X
+  
+  [1X2.1-6 MonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject[101X
+  
+  [33X[1;0Y[29X[2XMonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject[102X( [3XA[103X, [3XI[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya monomorphism[133X
+  
+  [33X[0;0YThe  argument is an object [23XA[123X. The output is a monomorphism into an injective
+  envelope [23XI[123X of [23XA[123X.[133X
+  
+  [1X2.1-7 PostInverse[101X
   
   [33X[1;0Y[29X[2XPostInverse[102X( [3Xalpha[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(B,A)[123X a morphism[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(B,A)[123X[133X
   
   [33X[0;0YThe  argument  is  a  morphism  [23X\alpha:  A  \rightarrow B[123X. The output is the
   preinverse [23X\iota: B \rightarrow A[123X.[133X
   
-  [1X2.1-2 PreInverse[101X
+  [1X2.1-8 PreInverse[101X
   
   [33X[1;0Y[29X[2XPreInverse[102X( [3Xalpha[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(B,A)[123X a morphism[133X
+  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(B,A)[123X[133X
   
   [33X[0;0YThe  argument  is  a  morphism  [23X\alpha:  A  \rightarrow B[123X. The output is the
   postinverse [23X\iota: B \rightarrow A[123X.[133X
@@ -424,7 +470,29 @@
   [10XEmbeddingOfSumOfImagesOfAllMorphisms[110X.     [23XF:    (    a,    b    )    \mapsto
   \mathtt{EmbeddingOfSumOfImagesOfAllMorphisms}(a, b)[123X.[133X
   
-  [1X2.8-8 AddImageObjectFunctorial[101X
+  [1X2.8-8 AddEpimorphismFromProjectiveCoverObject[101X
+  
+  [33X[1;0Y[29X[2XAddEpimorphismFromProjectiveCoverObject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XEpimorphismFromProjectiveCoverObject[110X.      [23XF:      (     A     )     \mapsto
+  \mathtt{EpimorphismFromProjectiveCoverObject}(A)[123X.[133X
+  
+  [1X2.8-9 AddEpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject[101X
+  
+  [33X[1;0Y[29X[2XAddEpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XEpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject[110X.  [23XF: ( A,
+  P                                  )                                 \mapsto
+  \mathtt{EpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject}(A,
+  P)[123X.[133X
+  
+  [1X2.8-10 AddImageObjectFunctorial[101X
   
   [33X[1;0Y[29X[2XAddImageObjectFunctorial[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -434,7 +502,7 @@
   [10XImageObjectFunctorial[110X.    [23XF:    (    alpha,    nu,    alphap    )    \mapsto
   \mathtt{ImageObjectFunctorial}(alpha, nu, alphap)[123X.[133X
   
-  [1X2.8-9 AddImageObjectFunctorialWithGivenImageObjects[101X
+  [1X2.8-11 AddImageObjectFunctorialWithGivenImageObjects[101X
   
   [33X[1;0Y[29X[2XAddImageObjectFunctorialWithGivenImageObjects[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -445,7 +513,7 @@
   \mapsto  \mathtt{ImageObjectFunctorialWithGivenImageObjects}(I,  alpha,  nu,
   alphap, Ip)[123X.[133X
   
-  [1X2.8-10 AddInjectionOfCofactorOfColimit[101X
+  [1X2.8-12 AddInjectionOfCofactorOfColimit[101X
   
   [33X[1;0Y[29X[2XAddInjectionOfCofactorOfColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -455,7 +523,7 @@
   [10XInjectionOfCofactorOfColimit[110X. [23XF: ( objects, decorated_morphisms, k ) \mapsto
   \mathtt{InjectionOfCofactorOfColimit}(objects, decorated_morphisms, k)[123X.[133X
   
-  [1X2.8-11 AddInjectionOfCofactorOfColimitWithGivenColimit[101X
+  [1X2.8-13 AddInjectionOfCofactorOfColimitWithGivenColimit[101X
   
   [33X[1;0Y[29X[2XAddInjectionOfCofactorOfColimitWithGivenColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -467,7 +535,17 @@
   \mathtt{InjectionOfCofactorOfColimitWithGivenColimit}(objects,
   decorated_morphisms, k, P)[123X.[133X
   
-  [1X2.8-12 AddIsWeakInitial[101X
+  [1X2.8-14 AddInjectiveEnvelopeObject[101X
+  
+  [33X[1;0Y[29X[2XAddInjectiveEnvelopeObject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XInjectiveEnvelopeObject[110X.        [23XF:        (       arg2       )       \mapsto
+  \mathtt{InjectiveEnvelopeObject}(arg2)[123X.[133X
+  
+  [1X2.8-15 AddIsWeakInitial[101X
   
   [33X[1;0Y[29X[2XAddIsWeakInitial[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -476,7 +554,7 @@
   given function [23XF[123X to the category for the basic operation [10XIsWeakInitial[110X. [23XF: (
   arg2 ) \mapsto \mathtt{IsWeakInitial}(arg2)[123X.[133X
   
-  [1X2.8-13 AddIsWeakTerminal[101X
+  [1X2.8-16 AddIsWeakTerminal[101X
   
   [33X[1;0Y[29X[2XAddIsWeakTerminal[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -485,7 +563,7 @@
   given  function [23XF[123X to the category for the basic operation [10XIsWeakTerminal[110X. [23XF:
   ( arg2 ) \mapsto \mathtt{IsWeakTerminal}(arg2)[123X.[133X
   
-  [1X2.8-14 AddLimit[101X
+  [1X2.8-17 AddLimit[101X
   
   [33X[1;0Y[29X[2XAddLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -495,7 +573,7 @@
   objects,     decorated_morphisms     )    \mapsto    \mathtt{Limit}(objects,
   decorated_morphisms)[123X.[133X
   
-  [1X2.8-15 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
+  [1X2.8-18 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XAddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -507,7 +585,7 @@
   \mathtt{MereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory}(arg2,
   arg3)[123X.[133X
   
-  [1X2.8-16 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
+  [1X2.8-19 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[101X
   
   [33X[1;0Y[29X[2XAddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -519,7 +597,29 @@
   \mathtt{MereExistenceOfUniqueSolutionOfLinearSystemInAbCategory}(arg2, arg3,
   arg4)[123X.[133X
   
-  [1X2.8-17 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
+  [1X2.8-20 AddMonomorphismIntoInjectiveEnvelopeObject[101X
+  
+  [33X[1;0Y[29X[2XAddMonomorphismIntoInjectiveEnvelopeObject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMonomorphismIntoInjectiveEnvelopeObject[110X.     [23XF:     (     A     )    \mapsto
+  \mathtt{MonomorphismIntoInjectiveEnvelopeObject}(A)[123X.[133X
+  
+  [1X2.8-21 AddMonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject[101X
+  
+  [33X[1;0Y[29X[2XAddMonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XMonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject[110X.  [23XF:
+  (                A,                I                )                \mapsto
+  \mathtt{MonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject}(A,
+  I)[123X.[133X
+  
+  [1X2.8-22 AddMorphismOntoSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddMorphismOntoSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -529,7 +629,7 @@
   [10XMorphismOntoSumOfImagesOfAllMorphisms[110X.    [23XF:    (    a,    b    )    \mapsto
   \mathtt{MorphismOntoSumOfImagesOfAllMorphisms}(a, b)[123X.[133X
   
-  [1X2.8-18 AddPostInverse[101X
+  [1X2.8-23 AddPostInverse[101X
   
   [33X[1;0Y[29X[2XAddPostInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -538,7 +638,7 @@
   given  function  [23XF[123X to the category for the basic operation [10XPostInverse[110X. [23XF: (
   alpha ) \mapsto \mathtt{PostInverse}(alpha)[123X.[133X
   
-  [1X2.8-19 AddPreInverse[101X
+  [1X2.8-24 AddPreInverse[101X
   
   [33X[1;0Y[29X[2XAddPreInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -547,7 +647,7 @@
   given  function  [23XF[123X  to the category for the basic operation [10XPreInverse[110X. [23XF: (
   alpha ) \mapsto \mathtt{PreInverse}(alpha)[123X.[133X
   
-  [1X2.8-20 AddProjectionInFactorOfLimit[101X
+  [1X2.8-25 AddProjectionInFactorOfLimit[101X
   
   [33X[1;0Y[29X[2XAddProjectionInFactorOfLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -557,7 +657,7 @@
   [10XProjectionInFactorOfLimit[110X.  [23XF:  (  objects, decorated_morphisms, k ) \mapsto
   \mathtt{ProjectionInFactorOfLimit}(objects, decorated_morphisms, k)[123X.[133X
   
-  [1X2.8-21 AddProjectionInFactorOfLimitWithGivenLimit[101X
+  [1X2.8-26 AddProjectionInFactorOfLimitWithGivenLimit[101X
   
   [33X[1;0Y[29X[2XAddProjectionInFactorOfLimitWithGivenLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -568,7 +668,7 @@
   k,  P  )  \mapsto  \mathtt{ProjectionInFactorOfLimitWithGivenLimit}(objects,
   decorated_morphisms, k, P)[123X.[133X
   
-  [1X2.8-22 AddProjectionOfBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-27 AddProjectionOfBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -578,7 +678,7 @@
   [10XProjectionOfBiasedRelativeWeakFiberProduct[110X.   [23XF:   (   a,  b,  c  )  \mapsto
   \mathtt{ProjectionOfBiasedRelativeWeakFiberProduct}(a, b, c)[123X.[133X
   
-  [1X2.8-23 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-28 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -590,7 +690,17 @@
   \mathtt{ProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
   b, c, P)[123X.[133X
   
-  [1X2.8-24 AddRelativeLift[101X
+  [1X2.8-29 AddProjectiveCoverObject[101X
+  
+  [33X[1;0Y[29X[2XAddProjectiveCoverObject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ynothing[133X
+  
+  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
+  given    function    [23XF[123X   to   the   category   for   the   basic   operation
+  [10XProjectiveCoverObject[110X.        [23XF:        (        arg2        )       \mapsto
+  \mathtt{ProjectiveCoverObject}(arg2)[123X.[133X
+  
+  [1X2.8-30 AddRelativeLift[101X
   
   [33X[1;0Y[29X[2XAddRelativeLift[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -599,7 +709,7 @@
   given  function [23XF[123X to the category for the basic operation [10XRelativeLift[110X. [23XF: (
   beta, alpha, nu ) \mapsto \mathtt{RelativeLift}(beta, alpha, nu)[123X.[133X
   
-  [1X2.8-25 AddSumOfImagesOfAllMorphisms[101X
+  [1X2.8-31 AddSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -609,7 +719,7 @@
   [10XSumOfImagesOfAllMorphisms[110X.     [23XF:     (     arg2,     arg3     )     \mapsto
   \mathtt{SumOfImagesOfAllMorphisms}(arg2, arg3)[123X.[133X
   
-  [1X2.8-26 AddUniversalMorphismFromColimit[101X
+  [1X2.8-32 AddUniversalMorphismFromColimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismFromColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -620,7 +730,7 @@
   \mapsto  \mathtt{UniversalMorphismFromColimit}(objects, decorated_morphisms,
   T, tau)[123X.[133X
   
-  [1X2.8-27 AddUniversalMorphismFromColimitWithGivenColimit[101X
+  [1X2.8-33 AddUniversalMorphismFromColimitWithGivenColimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismFromColimitWithGivenColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -632,7 +742,7 @@
   \mathtt{UniversalMorphismFromColimitWithGivenColimit}(objects,
   decorated_morphisms, T, tau, P)[123X.[133X
   
-  [1X2.8-28 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-34 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -643,7 +753,7 @@
   \mapsto  \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProduct}(a,  b,
   c, t)[123X.[133X
   
-  [1X2.8-29 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-35 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -655,7 +765,7 @@
   \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
   b, c, t, P)[123X.[133X
   
-  [1X2.8-30 AddUniversalMorphismIntoLimit[101X
+  [1X2.8-36 AddUniversalMorphismIntoLimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -666,7 +776,7 @@
   \mapsto \mathtt{UniversalMorphismIntoLimit}(objects, decorated_morphisms, T,
   tau)[123X.[133X
   
-  [1X2.8-31 AddUniversalMorphismIntoLimitWithGivenLimit[101X
+  [1X2.8-37 AddUniversalMorphismIntoLimitWithGivenLimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoLimitWithGivenLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X

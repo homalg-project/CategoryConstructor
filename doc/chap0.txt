@@ -6,10 +6,10 @@
                     [1X Construct categories out of given ones [101X
   
   
-                                   2022.10-01
+                                   2022.10-02
   
   
-                                19 October 2022
+                                24 October 2022
   
   
                                 Mohamed Barakat
@@ -35,8 +35,14 @@
       1.1-1 CategoryConstructor
   2 [33X[0;0YFuther CAP operations[133X
     2.1 [33X[0;0YPreInverse and PostInverse[133X
-      2.1-1 PostInverse
-      2.1-2 PreInverse
+      2.1-1 ProjectiveCoverObject
+      2.1-2 EpimorphismFromProjectiveCoverObject
+      2.1-3 EpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject
+      2.1-4 InjectiveEnvelopeObject
+      2.1-5 MonomorphismIntoInjectiveEnvelopeObject
+      2.1-6 MonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject
+      2.1-7 PostInverse
+      2.1-8 PreInverse
     2.2 [33X[0;0YIsWeakTerminal and IsWeakInitial[133X
       2.2-1 IsWeakTerminal
       2.2-2 IsWeakInitial
@@ -73,30 +79,36 @@
       2.8-5 AddCoimageObjectFunctorialWithGivenCoimageObjects
       2.8-6 AddColimit
       2.8-7 AddEmbeddingOfSumOfImagesOfAllMorphisms
-      2.8-8 AddImageObjectFunctorial
-      2.8-9 AddImageObjectFunctorialWithGivenImageObjects
-      2.8-10 AddInjectionOfCofactorOfColimit
-      2.8-11 AddInjectionOfCofactorOfColimitWithGivenColimit
-      2.8-12 AddIsWeakInitial
-      2.8-13 AddIsWeakTerminal
-      2.8-14 AddLimit
-      2.8-15 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
-      2.8-16 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
-      2.8-17 AddMorphismOntoSumOfImagesOfAllMorphisms
-      2.8-18 AddPostInverse
-      2.8-19 AddPreInverse
-      2.8-20 AddProjectionInFactorOfLimit
-      2.8-21 AddProjectionInFactorOfLimitWithGivenLimit
-      2.8-22 AddProjectionOfBiasedRelativeWeakFiberProduct
-      2.8-23 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.8-24 AddRelativeLift
-      2.8-25 AddSumOfImagesOfAllMorphisms
-      2.8-26 AddUniversalMorphismFromColimit
-      2.8-27 AddUniversalMorphismFromColimitWithGivenColimit
-      2.8-28 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
-      2.8-29 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.8-30 AddUniversalMorphismIntoLimit
-      2.8-31 AddUniversalMorphismIntoLimitWithGivenLimit
+      2.8-8 AddEpimorphismFromProjectiveCoverObject
+      2.8-9 AddEpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject
+      2.8-10 AddImageObjectFunctorial
+      2.8-11 AddImageObjectFunctorialWithGivenImageObjects
+      2.8-12 AddInjectionOfCofactorOfColimit
+      2.8-13 AddInjectionOfCofactorOfColimitWithGivenColimit
+      2.8-14 AddInjectiveEnvelopeObject
+      2.8-15 AddIsWeakInitial
+      2.8-16 AddIsWeakTerminal
+      2.8-17 AddLimit
+      2.8-18 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
+      2.8-19 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
+      2.8-20 AddMonomorphismIntoInjectiveEnvelopeObject
+      2.8-21 AddMonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject
+      2.8-22 AddMorphismOntoSumOfImagesOfAllMorphisms
+      2.8-23 AddPostInverse
+      2.8-24 AddPreInverse
+      2.8-25 AddProjectionInFactorOfLimit
+      2.8-26 AddProjectionInFactorOfLimitWithGivenLimit
+      2.8-27 AddProjectionOfBiasedRelativeWeakFiberProduct
+      2.8-28 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.8-29 AddProjectiveCoverObject
+      2.8-30 AddRelativeLift
+      2.8-31 AddSumOfImagesOfAllMorphisms
+      2.8-32 AddUniversalMorphismFromColimit
+      2.8-33 AddUniversalMorphismFromColimitWithGivenColimit
+      2.8-34 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
+      2.8-35 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.8-36 AddUniversalMorphismIntoLimit
+      2.8-37 AddUniversalMorphismIntoLimitWithGivenLimit
     2.9 [33X[0;0YImageObjectFunctorial[133X
       2.9-1 ImageObjectFunctorial
       2.9-2 ImageObjectFunctorialWithGivenImageObjects
