@@ -6,10 +6,10 @@
                     [1X Construct categories out of given ones [101X
   
   
-                                   2022.10-03
+                                   2022.10-06
   
   
-                                28 October 2022
+                                30 October 2022
   
   
                                 Mohamed Barakat
@@ -122,6 +122,10 @@
       2.11-4 InjectionOfCofactorOfColimitWithGivenColimit
       2.11-5 UniversalMorphismFromColimit
       2.11-6 UniversalMorphismFromColimitWithGivenColimit
+  3 [33X[0;0YTools[133X
+    3.1 [33X[0;0YFunctors[133X
+      3.1-1 CovariantHomFunctor
+      3.1-2 GlobalSectionFunctor
   
   
   [32X
