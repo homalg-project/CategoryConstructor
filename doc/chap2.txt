@@ -2,7 +2,7 @@
   [1X2 [33X[0;0YFuther CAP operations[133X[101X
   
   
-  [1X2.1 [33X[0;0YPreInverse and PostInverse[133X[101X
+  [1X2.1 [33X[0;0YProjective covers and injective envelopes[133X[101X
   
   [1X2.1-1 ProjectiveCoverObject[101X
   
@@ -49,22 +49,6 @@
   
   [33X[0;0YThe  argument is an object [23XA[123X. The output is a monomorphism into an injective
   envelope [23XI[123X of [23XA[123X.[133X
-  
-  [1X2.1-7 PostInverse[101X
-  
-  [33X[1;0Y[29X[2XPostInverse[102X( [3Xalpha[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(B,A)[123X[133X
-  
-  [33X[0;0YThe  argument  is  a  morphism  [23X\alpha:  A  \rightarrow B[123X. The output is the
-  preinverse [23X\iota: B \rightarrow A[123X.[133X
-  
-  [1X2.1-8 PreInverse[101X
-  
-  [33X[1;0Y[29X[2XPreInverse[102X( [3Xalpha[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ya morphism in [23X\mathrm{Hom}(B,A)[123X[133X
-  
-  [33X[0;0YThe  argument  is  a  morphism  [23X\alpha:  A  \rightarrow B[123X. The output is the
-  postinverse [23X\iota: B \rightarrow A[123X.[133X
   
   
   [1X2.2 [33X[0;0YIsWeakTerminal and IsWeakInitial[133X[101X
@@ -629,25 +613,7 @@
   [10XMorphismOntoSumOfImagesOfAllMorphisms[110X.    [23XF:    (    a,    b    )    \mapsto
   \mathtt{MorphismOntoSumOfImagesOfAllMorphisms}(a, b)[123X.[133X
   
-  [1X2.8-23 AddPostInverse[101X
-  
-  [33X[1;0Y[29X[2XAddPostInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given  function  [23XF[123X to the category for the basic operation [10XPostInverse[110X. [23XF: (
-  alpha ) \mapsto \mathtt{PostInverse}(alpha)[123X.[133X
-  
-  [1X2.8-24 AddPreInverse[101X
-  
-  [33X[1;0Y[29X[2XAddPreInverse[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
-  [6XReturns:[106X  [33X[0;10Ynothing[133X
-  
-  [33X[0;0YThe  arguments  are  a  category [23XC[123X and a function [23XF[123X. This operation adds the
-  given  function  [23XF[123X  to the category for the basic operation [10XPreInverse[110X. [23XF: (
-  alpha ) \mapsto \mathtt{PreInverse}(alpha)[123X.[133X
-  
-  [1X2.8-25 AddProjectionInFactorOfLimit[101X
+  [1X2.8-23 AddProjectionInFactorOfLimit[101X
   
   [33X[1;0Y[29X[2XAddProjectionInFactorOfLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -657,7 +623,7 @@
   [10XProjectionInFactorOfLimit[110X.  [23XF:  (  objects, decorated_morphisms, k ) \mapsto
   \mathtt{ProjectionInFactorOfLimit}(objects, decorated_morphisms, k)[123X.[133X
   
-  [1X2.8-26 AddProjectionInFactorOfLimitWithGivenLimit[101X
+  [1X2.8-24 AddProjectionInFactorOfLimitWithGivenLimit[101X
   
   [33X[1;0Y[29X[2XAddProjectionInFactorOfLimitWithGivenLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -668,7 +634,7 @@
   k,  P  )  \mapsto  \mathtt{ProjectionInFactorOfLimitWithGivenLimit}(objects,
   decorated_morphisms, k, P)[123X.[133X
   
-  [1X2.8-27 AddProjectionOfBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-25 AddProjectionOfBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -678,7 +644,7 @@
   [10XProjectionOfBiasedRelativeWeakFiberProduct[110X.   [23XF:   (   a,  b,  c  )  \mapsto
   \mathtt{ProjectionOfBiasedRelativeWeakFiberProduct}(a, b, c)[123X.[133X
   
-  [1X2.8-28 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-26 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -690,7 +656,7 @@
   \mathtt{ProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
   b, c, P)[123X.[133X
   
-  [1X2.8-29 AddProjectiveCoverObject[101X
+  [1X2.8-27 AddProjectiveCoverObject[101X
   
   [33X[1;0Y[29X[2XAddProjectiveCoverObject[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -700,7 +666,7 @@
   [10XProjectiveCoverObject[110X.        [23XF:        (        arg2        )       \mapsto
   \mathtt{ProjectiveCoverObject}(arg2)[123X.[133X
   
-  [1X2.8-30 AddRelativeLift[101X
+  [1X2.8-28 AddRelativeLift[101X
   
   [33X[1;0Y[29X[2XAddRelativeLift[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -709,7 +675,7 @@
   given  function [23XF[123X to the category for the basic operation [10XRelativeLift[110X. [23XF: (
   beta, alpha, nu ) \mapsto \mathtt{RelativeLift}(beta, alpha, nu)[123X.[133X
   
-  [1X2.8-31 AddSumOfImagesOfAllMorphisms[101X
+  [1X2.8-29 AddSumOfImagesOfAllMorphisms[101X
   
   [33X[1;0Y[29X[2XAddSumOfImagesOfAllMorphisms[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -719,7 +685,7 @@
   [10XSumOfImagesOfAllMorphisms[110X.     [23XF:     (     arg2,     arg3     )     \mapsto
   \mathtt{SumOfImagesOfAllMorphisms}(arg2, arg3)[123X.[133X
   
-  [1X2.8-32 AddUniversalMorphismFromColimit[101X
+  [1X2.8-30 AddUniversalMorphismFromColimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismFromColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -730,7 +696,7 @@
   \mapsto  \mathtt{UniversalMorphismFromColimit}(objects, decorated_morphisms,
   T, tau)[123X.[133X
   
-  [1X2.8-33 AddUniversalMorphismFromColimitWithGivenColimit[101X
+  [1X2.8-31 AddUniversalMorphismFromColimitWithGivenColimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismFromColimitWithGivenColimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -742,7 +708,7 @@
   \mathtt{UniversalMorphismFromColimitWithGivenColimit}(objects,
   decorated_morphisms, T, tau, P)[123X.[133X
   
-  [1X2.8-34 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-32 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -753,7 +719,7 @@
   \mapsto  \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProduct}(a,  b,
   c, t)[123X.[133X
   
-  [1X2.8-35 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
+  [1X2.8-33 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -765,7 +731,7 @@
   \mathtt{UniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct}(a,
   b, c, t, P)[123X.[133X
   
-  [1X2.8-36 AddUniversalMorphismIntoLimit[101X
+  [1X2.8-34 AddUniversalMorphismIntoLimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
@@ -776,7 +742,7 @@
   \mapsto \mathtt{UniversalMorphismIntoLimit}(objects, decorated_morphisms, T,
   tau)[123X.[133X
   
-  [1X2.8-37 AddUniversalMorphismIntoLimitWithGivenLimit[101X
+  [1X2.8-35 AddUniversalMorphismIntoLimitWithGivenLimit[101X
   
   [33X[1;0Y[29X[2XAddUniversalMorphismIntoLimitWithGivenLimit[102X( [3XC[103X, [3XF[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
