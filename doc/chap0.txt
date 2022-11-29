@@ -6,7 +6,7 @@
                     [1X Construct categories out of given ones [101X
   
   
-                                   2022.11-11
+                                   2022.11-12
   
   
                                 29 November 2022
@@ -35,12 +35,6 @@
       1.1-1 CategoryConstructor
   2 [33X[0;0YFuther CAP operations[133X
     2.1 [33X[0;0YProjective covers and injective envelopes[133X
-      2.1-1 ProjectiveCoverObject
-      2.1-2 EpimorphismFromProjectiveCoverObject
-      2.1-3 EpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject
-      2.1-4 InjectiveEnvelopeObject
-      2.1-5 MonomorphismIntoInjectiveEnvelopeObject
-      2.1-6 MonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject
     2.2 [33X[0;0YIsWeakTerminal and IsWeakInitial[133X
       2.2-1 IsWeakTerminal
       2.2-2 IsWeakInitial
@@ -84,32 +78,26 @@
       2.11-3 AddBiasedRelativeWeakFiberProduct
       2.11-4 AddColimit
       2.11-5 AddEmbeddingOfSumOfImagesOfAllMorphisms
-      2.11-6 AddEpimorphismFromProjectiveCoverObject
-      2.11-7 AddEpimorphismFromProjectiveCoverObjectWithGivenProjectiveCoverObject
-      2.11-8 AddInjectionOfCofactorOfColimit
-      2.11-9 AddInjectionOfCofactorOfColimitWithGivenColimit
-      2.11-10 AddInjectiveEnvelopeObject
-      2.11-11 AddIsWeakInitial
-      2.11-12 AddIsWeakTerminal
-      2.11-13 AddLimit
-      2.11-14 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
-      2.11-15 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
-      2.11-16 AddMonomorphismIntoInjectiveEnvelopeObject
-      2.11-17 AddMonomorphismIntoInjectiveEnvelopeObjectWithGivenInjectiveEnvelopeObject
-      2.11-18 AddMorphismOntoSumOfImagesOfAllMorphisms
-      2.11-19 AddProjectionInFactorOfLimit
-      2.11-20 AddProjectionInFactorOfLimitWithGivenLimit
-      2.11-21 AddProjectionOfBiasedRelativeWeakFiberProduct
-      2.11-22 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.11-23 AddProjectiveCoverObject
-      2.11-24 AddRelativeLift
-      2.11-25 AddSumOfImagesOfAllMorphisms
-      2.11-26 AddUniversalMorphismFromColimit
-      2.11-27 AddUniversalMorphismFromColimitWithGivenColimit
-      2.11-28 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
-      2.11-29 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
-      2.11-30 AddUniversalMorphismIntoLimit
-      2.11-31 AddUniversalMorphismIntoLimitWithGivenLimit
+      2.11-6 AddInjectionOfCofactorOfColimit
+      2.11-7 AddInjectionOfCofactorOfColimitWithGivenColimit
+      2.11-8 AddIsWeakInitial
+      2.11-9 AddIsWeakTerminal
+      2.11-10 AddLimit
+      2.11-11 AddMereExistenceOfUniqueSolutionOfHomogeneousLinearSystemInAbCategory
+      2.11-12 AddMereExistenceOfUniqueSolutionOfLinearSystemInAbCategory
+      2.11-13 AddMorphismOntoSumOfImagesOfAllMorphisms
+      2.11-14 AddProjectionInFactorOfLimit
+      2.11-15 AddProjectionInFactorOfLimitWithGivenLimit
+      2.11-16 AddProjectionOfBiasedRelativeWeakFiberProduct
+      2.11-17 AddProjectionOfBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.11-18 AddRelativeLift
+      2.11-19 AddSumOfImagesOfAllMorphisms
+      2.11-20 AddUniversalMorphismFromColimit
+      2.11-21 AddUniversalMorphismFromColimitWithGivenColimit
+      2.11-22 AddUniversalMorphismIntoBiasedRelativeWeakFiberProduct
+      2.11-23 AddUniversalMorphismIntoBiasedRelativeWeakFiberProductWithGivenBiasedRelativeWeakFiberProduct
+      2.11-24 AddUniversalMorphismIntoLimit
+      2.11-25 AddUniversalMorphismIntoLimitWithGivenLimit
   3 [33X[0;0YTools[133X
     3.1 [33X[0;0YFunctors[133X
       3.1-1 CovariantHomFunctor
