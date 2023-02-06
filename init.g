@@ -8,6 +8,10 @@ ReadPackage( "CategoryConstructor", "gap/CategoryConstructor.gd");
 ReadPackage( "CategoryConstructor", "gap/Tools.gd");
 ReadPackage( "CategoryConstructor", "gap/Tools.autogen.gd");
 
+## Homomorphism structure from closed structure
+ReadPackage( "CategoryConstructor", "gap/HomomorphismStructure.gd" );
+ReadPackage( "CategoryConstructor", "gap/HomomorphismStructure.autogen.gd" );
+
 if IsPackageMarkedForLoading( "JuliaInterface", ">= 0.2" ) then
     ReadPackage( "CategoryConstructor", "gap/Julia.gd" );
 fi;

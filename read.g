@@ -9,6 +9,10 @@ ReadPackage( "CategoryConstructor", "gap/Tools.gi");
 ReadPackage( "CategoryConstructor", "gap/ToolsMethodRecord.gi");
 ReadPackage( "CategoryConstructor", "gap/ToolsDerivedMethods.gi");
 
+## Homomorphism structure from closed structure
+ReadPackage( "CategoryConstructor", "gap/HomomorphismStructureMethodRecord.gi" );
+ReadPackage( "CategoryConstructor", "gap/HomomorphismStructureDerivedMethods.gi" );
+
 if IsPackageMarkedForLoading( "JuliaInterface", ">= 0.2" ) then
     ReadPackage( "CategoryConstructor", "gap/Julia.gi" );
 fi;
